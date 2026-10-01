@@ -1,0 +1,840 @@
+{
+  "version": 1,
+  "notes": "Nutrition per 100 g of the ingredient as bought (raw / dry / drained). Values are typical database figures and approximate: confirm against the product label in Cronometer. Meal macros are calculated from these, never typed in.",
+  "ingredients": {
+    "chicken_breast": {
+      "name": "Chicken breast, skinless",
+      "section": "Meat & fish",
+      "per100": {
+        "kcal": 120,
+        "p": 22.5,
+        "c": 0,
+        "f": 2.6
+      }
+    },
+    "beef_mince_lean": {
+      "name": "Beef mince, extra lean (5% fat)",
+      "section": "Meat & fish",
+      "per100": {
+        "kcal": 137,
+        "p": 21,
+        "c": 0,
+        "f": 5.5
+      }
+    },
+    "beef_rump": {
+      "name": "Beef rump steak, trimmed",
+      "section": "Meat & fish",
+      "per100": {
+        "kcal": 125,
+        "p": 22.5,
+        "c": 0,
+        "f": 3.5
+      }
+    },
+    "salmon": {
+      "name": "Salmon fillet",
+      "section": "Meat & fish",
+      "per100": {
+        "kcal": 208,
+        "p": 20,
+        "c": 0,
+        "f": 13.4
+      }
+    },
+    "white_fish": {
+      "name": "White fish fillet (basa / ling)",
+      "section": "Meat & fish",
+      "per100": {
+        "kcal": 90,
+        "p": 19,
+        "c": 0,
+        "f": 1.5
+      }
+    },
+    "tuna_can": {
+      "name": "Tuna in springwater, drained",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 110,
+        "p": 25,
+        "c": 0,
+        "f": 1
+      },
+      "each": {
+        "g": 130,
+        "label": "can (185 g)",
+        "plural": "cans (185 g)"
+      }
+    },
+    "egg": {
+      "name": "Eggs",
+      "section": "Dairy & eggs",
+      "per100": {
+        "kcal": 143,
+        "p": 12.6,
+        "c": 0.7,
+        "f": 9.5
+      },
+      "each": {
+        "g": 52,
+        "label": "egg",
+        "plural": "eggs"
+      }
+    },
+    "egg_white": {
+      "name": "Liquid egg whites",
+      "section": "Dairy & eggs",
+      "per100": {
+        "kcal": 52,
+        "p": 11,
+        "c": 0.7,
+        "f": 0.2
+      }
+    },
+    "greek_yog": {
+      "name": "Greek yoghurt, plain 0% fat",
+      "section": "Dairy & eggs",
+      "per100": {
+        "kcal": 57,
+        "p": 10,
+        "c": 4,
+        "f": 0.2
+      }
+    },
+    "skim_milk": {
+      "name": "Skim milk",
+      "section": "Dairy & eggs",
+      "per100": {
+        "kcal": 35,
+        "p": 3.5,
+        "c": 5,
+        "f": 0.1
+      },
+      "unit": "ml"
+    },
+    "almond_milk": {
+      "name": "Almond milk, unsweetened",
+      "section": "Dairy & eggs",
+      "per100": {
+        "kcal": 15,
+        "p": 0.5,
+        "c": 0.2,
+        "f": 1.2
+      },
+      "unit": "ml"
+    },
+    "feta_light": {
+      "name": "Feta, reduced fat",
+      "section": "Dairy & eggs",
+      "per100": {
+        "kcal": 200,
+        "p": 17,
+        "c": 1,
+        "f": 14
+      }
+    },
+    "basmati": {
+      "name": "Basmati rice (dry)",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 360,
+        "p": 7.5,
+        "c": 79,
+        "f": 0.6
+      }
+    },
+    "oats": {
+      "name": "Rolled oats",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 375,
+        "p": 13,
+        "c": 60,
+        "f": 7
+      }
+    },
+    "red_lentils": {
+      "name": "Red lentils (dry)",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 352,
+        "p": 24.6,
+        "c": 63,
+        "f": 1.1
+      }
+    },
+    "light_coconut_milk": {
+      "name": "Light coconut milk",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 80,
+        "p": 0.8,
+        "c": 2,
+        "f": 7.5
+      },
+      "unit": "ml"
+    },
+    "whey": {
+      "name": "Whey protein",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 390,
+        "p": 75,
+        "c": 8,
+        "f": 6
+      },
+      "each": {
+        "g": 30,
+        "label": "scoop",
+        "plural": "scoops"
+      }
+    },
+    "chia": {
+      "name": "Chia seeds",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 486,
+        "p": 17,
+        "c": 42,
+        "f": 31
+      }
+    },
+    "wholegrain_bread": {
+      "name": "Wholegrain bread",
+      "section": "Bakery",
+      "per100": {
+        "kcal": 245,
+        "p": 10,
+        "c": 40,
+        "f": 4
+      },
+      "each": {
+        "g": 40,
+        "label": "slice",
+        "plural": "slices"
+      }
+    },
+    "wholemeal_wrap": {
+      "name": "Wholemeal wraps",
+      "section": "Bakery",
+      "per100": {
+        "kcal": 300,
+        "p": 9,
+        "c": 48,
+        "f": 7
+      },
+      "each": {
+        "g": 43,
+        "label": "wrap",
+        "plural": "wraps"
+      }
+    },
+    "spinach": {
+      "name": "Baby spinach",
+      "section": "Produce",
+      "per100": {
+        "kcal": 23,
+        "p": 2.9,
+        "c": 3.6,
+        "f": 0.4
+      }
+    },
+    "tomato": {
+      "name": "Tomatoes",
+      "section": "Produce",
+      "per100": {
+        "kcal": 18,
+        "p": 0.9,
+        "c": 3.9,
+        "f": 0.2
+      }
+    },
+    "cucumber": {
+      "name": "Cucumber",
+      "section": "Produce",
+      "per100": {
+        "kcal": 15,
+        "p": 0.7,
+        "c": 3.6,
+        "f": 0.1
+      }
+    },
+    "carrot": {
+      "name": "Carrots",
+      "section": "Produce",
+      "per100": {
+        "kcal": 41,
+        "p": 0.9,
+        "c": 9.6,
+        "f": 0.2
+      }
+    },
+    "onion": {
+      "name": "Onions",
+      "section": "Produce",
+      "per100": {
+        "kcal": 40,
+        "p": 1.1,
+        "c": 9.3,
+        "f": 0.1
+      }
+    },
+    "capsicum": {
+      "name": "Capsicum",
+      "section": "Produce",
+      "per100": {
+        "kcal": 26,
+        "p": 1,
+        "c": 6,
+        "f": 0.3
+      }
+    },
+    "broccoli": {
+      "name": "Broccoli",
+      "section": "Produce",
+      "per100": {
+        "kcal": 34,
+        "p": 2.8,
+        "c": 6.6,
+        "f": 0.4
+      }
+    },
+    "sweet_potato": {
+      "name": "Sweet potato",
+      "section": "Produce",
+      "per100": {
+        "kcal": 86,
+        "p": 1.6,
+        "c": 20,
+        "f": 0.1
+      }
+    },
+    "avocado": {
+      "name": "Avocado",
+      "section": "Produce",
+      "per100": {
+        "kcal": 160,
+        "p": 2,
+        "c": 8.5,
+        "f": 15
+      }
+    },
+    "banana": {
+      "name": "Bananas",
+      "section": "Produce",
+      "per100": {
+        "kcal": 89,
+        "p": 1.1,
+        "c": 23,
+        "f": 0.3
+      },
+      "each": {
+        "g": 120,
+        "label": "banana",
+        "plural": "bananas"
+      }
+    },
+    "lemon": {
+      "name": "Lemons",
+      "section": "Produce",
+      "per100": {
+        "kcal": 29,
+        "p": 1.1,
+        "c": 9,
+        "f": 0.3
+      },
+      "each": {
+        "g": 60,
+        "label": "lemon",
+        "plural": "lemons"
+      }
+    },
+    "berries_frozen": {
+      "name": "Mixed berries",
+      "section": "Frozen",
+      "per100": {
+        "kcal": 50,
+        "p": 0.8,
+        "c": 10,
+        "f": 0.3
+      }
+    },
+    "mixed_veg_frozen": {
+      "name": "Mixed vegetables",
+      "section": "Frozen",
+      "per100": {
+        "kcal": 60,
+        "p": 3,
+        "c": 10,
+        "f": 0.5
+      }
+    },
+    "stirfry_veg_frozen": {
+      "name": "Stir-fry vegetables",
+      "section": "Frozen",
+      "per100": {
+        "kcal": 35,
+        "p": 2,
+        "c": 5,
+        "f": 0.3
+      }
+    },
+    "olive_oil": {
+      "name": "Olive oil",
+      "section": "Pantry",
+      "pantry": true,
+      "per100": {
+        "kcal": 884,
+        "p": 0,
+        "c": 0,
+        "f": 100
+      }
+    },
+    "coconut_oil": {
+      "name": "Coconut oil",
+      "section": "Pantry",
+      "pantry": true,
+      "per100": {
+        "kcal": 884,
+        "p": 0,
+        "c": 0,
+        "f": 100
+      }
+    },
+    "soy_sauce": {
+      "name": "Soy sauce, salt reduced",
+      "section": "Pantry",
+      "pantry": true,
+      "per100": {
+        "kcal": 60,
+        "p": 8,
+        "c": 6,
+        "f": 0
+      }
+    },
+    "oyster_sauce": {
+      "name": "Oyster sauce",
+      "section": "Pantry",
+      "pantry": true,
+      "per100": {
+        "kcal": 120,
+        "p": 2,
+        "c": 27,
+        "f": 0.3
+      }
+    },
+    "curry_powder": {
+      "name": "Roasted curry powder",
+      "section": "Pantry",
+      "pantry": true,
+      "per100": {
+        "kcal": 325,
+        "p": 12.7,
+        "c": 58,
+        "f": 14
+      }
+    },
+    "cocoa": {
+      "name": "Cocoa powder, unsweetened",
+      "section": "Pantry",
+      "pantry": true,
+      "per100": {
+        "kcal": 228,
+        "p": 20,
+        "c": 58,
+        "f": 14
+      }
+    }
+  },
+  "meals": [
+    {
+      "id": "egg_scramble",
+      "name": "Egg scramble on toast",
+      "slot": "first",
+      "items": [
+        [
+          "egg",
+          104
+        ],
+        [
+          "egg_white",
+          200
+        ],
+        [
+          "spinach",
+          50
+        ],
+        [
+          "tomato",
+          80
+        ],
+        [
+          "feta_light",
+          20
+        ],
+        [
+          "wholegrain_bread",
+          80
+        ]
+      ],
+      "method": "Whisk eggs and whites. Wilt spinach and tomato in a non-stick pan (no oil), add eggs, stir gently. Crumble feta on top. Serve with toast."
+    },
+    {
+      "id": "yoghurt_bowl",
+      "name": "Greek yoghurt protein bowl",
+      "slot": "first",
+      "items": [
+        [
+          "greek_yog",
+          300
+        ],
+        [
+          "whey",
+          30
+        ],
+        [
+          "berries_frozen",
+          125
+        ],
+        [
+          "oats",
+          30
+        ]
+      ],
+      "method": "Stir whey into the yoghurt until smooth. Top with thawed berries and oats."
+    },
+    {
+      "id": "protein_oats",
+      "name": "Protein oats with banana",
+      "slot": "first",
+      "items": [
+        [
+          "oats",
+          60
+        ],
+        [
+          "skim_milk",
+          250
+        ],
+        [
+          "whey",
+          30
+        ],
+        [
+          "banana",
+          120
+        ],
+        [
+          "berries_frozen",
+          100
+        ]
+      ],
+      "method": "Microwave oats in milk for 2 minutes. Let cool for a minute, then stir in whey. Top with banana and berries."
+    },
+    {
+      "id": "tuna_wrap",
+      "name": "Tuna salad wraps",
+      "slot": "first",
+      "items": [
+        [
+          "tuna_can",
+          130
+        ],
+        [
+          "wholemeal_wrap",
+          86
+        ],
+        [
+          "greek_yog",
+          40
+        ],
+        [
+          "cucumber",
+          60
+        ],
+        [
+          "tomato",
+          80
+        ],
+        [
+          "spinach",
+          30
+        ],
+        [
+          "avocado",
+          30
+        ]
+      ],
+      "method": "Mix drained tuna with yoghurt, lemon, salt and pepper. Fill two wraps with spinach, cucumber, tomato, avocado and the tuna."
+    },
+    {
+      "id": "chicken_rice_bowl",
+      "name": "Chicken rice bowl",
+      "slot": "main",
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "basmati",
+          70
+        ],
+        [
+          "broccoli",
+          150
+        ],
+        [
+          "capsicum",
+          80
+        ],
+        [
+          "soy_sauce",
+          15
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Cook rice. Slice chicken and cook in the oil until done. Add broccoli and capsicum for 3 minutes, then soy sauce. Serve over rice."
+    },
+    {
+      "id": "chicken_curry",
+      "name": "Sri Lankan chicken curry and rice",
+      "slot": "main",
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "onion",
+          60
+        ],
+        [
+          "tomato",
+          80
+        ],
+        [
+          "light_coconut_milk",
+          60
+        ],
+        [
+          "coconut_oil",
+          5
+        ],
+        [
+          "curry_powder",
+          5
+        ],
+        [
+          "basmati",
+          60
+        ],
+        [
+          "mixed_veg_frozen",
+          100
+        ]
+      ],
+      "method": "Fry onion in coconut oil, add curry powder, garlic, ginger and curry leaves. Add diced chicken and tomato, then coconut milk with a splash of water. Simmer 15 minutes. Serve with rice and vegetables. Batch cooks well."
+    },
+    {
+      "id": "fish_curry_dhal",
+      "name": "Fish curry, dhal and rice",
+      "slot": "main",
+      "items": [
+        [
+          "white_fish",
+          200
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "light_coconut_milk",
+          50
+        ],
+        [
+          "coconut_oil",
+          5
+        ],
+        [
+          "curry_powder",
+          5
+        ],
+        [
+          "red_lentils",
+          40
+        ],
+        [
+          "basmati",
+          50
+        ]
+      ],
+      "method": "Dhal: simmer lentils with turmeric and water for 15 minutes. Curry: fry onion in coconut oil with curry powder, add tomato and coconut milk, then the fish for 6 to 8 minutes. Serve with rice."
+    },
+    {
+      "id": "beef_rice_bowl",
+      "name": "Beef mince rice bowl",
+      "slot": "main",
+      "items": [
+        [
+          "beef_mince_lean",
+          180
+        ],
+        [
+          "basmati",
+          65
+        ],
+        [
+          "carrot",
+          60
+        ],
+        [
+          "cucumber",
+          80
+        ],
+        [
+          "soy_sauce",
+          15
+        ]
+      ],
+      "method": "Brown mince in a dry pan with garlic and chilli, add soy sauce. Serve over rice with grated carrot and cucumber."
+    },
+    {
+      "id": "beef_stirfry",
+      "name": "Beef and vegetable stir-fry",
+      "slot": "main",
+      "items": [
+        [
+          "beef_rump",
+          180
+        ],
+        [
+          "basmati",
+          60
+        ],
+        [
+          "stirfry_veg_frozen",
+          200
+        ],
+        [
+          "soy_sauce",
+          20
+        ],
+        [
+          "oyster_sauce",
+          15
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Slice beef thinly and sear in the oil on high heat. Remove, stir-fry vegetables, return beef with soy and oyster sauce. Serve over rice."
+    },
+    {
+      "id": "salmon_traybake",
+      "name": "Salmon and sweet potato tray bake",
+      "slot": "main",
+      "items": [
+        [
+          "salmon",
+          150
+        ],
+        [
+          "sweet_potato",
+          200
+        ],
+        [
+          "broccoli",
+          150
+        ],
+        [
+          "greek_yog",
+          100
+        ],
+        [
+          "lemon",
+          30
+        ]
+      ],
+      "method": "Roast cubed sweet potato at 200°C for 20 minutes. Add salmon and broccoli, roast 12 more minutes. Serve with yoghurt mixed with lemon juice and garlic."
+    },
+    {
+      "id": "protein_pudding",
+      "name": "Chocolate protein pudding",
+      "slot": "snack",
+      "items": [
+        [
+          "whey",
+          30
+        ],
+        [
+          "chia",
+          20
+        ],
+        [
+          "almond_milk",
+          250
+        ],
+        [
+          "cocoa",
+          5
+        ],
+        [
+          "banana",
+          60
+        ]
+      ],
+      "method": "Shake whey, chia, cocoa and almond milk in a jar. Rest 10 minutes or overnight. Top with sliced banana."
+    },
+    {
+      "id": "yoghurt_cup",
+      "name": "Yoghurt and berries cup",
+      "slot": "snack",
+      "items": [
+        [
+          "greek_yog",
+          200
+        ],
+        [
+          "whey",
+          15
+        ],
+        [
+          "berries_frozen",
+          80
+        ]
+      ],
+      "method": "Stir half a scoop of whey into the yoghurt, top with berries."
+    },
+    {
+      "id": "shake_banana",
+      "name": "Protein shake and banana",
+      "slot": "snack",
+      "items": [
+        [
+          "whey",
+          30
+        ],
+        [
+          "skim_milk",
+          300
+        ],
+        [
+          "banana",
+          120
+        ]
+      ],
+      "method": "Shake whey with milk. Eat the banana alongside or blend everything."
+    }
+  ]
+}
