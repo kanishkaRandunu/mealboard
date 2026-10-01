@@ -223,3 +223,9 @@ details.pantry summary { cursor: pointer; color: var(--muted); font-size: 15px; 
 .sheet .search { background: var(--paper); margin-top: 4px; }
 .toggle { display: flex; gap: 8px; align-items: center; font-size: 14px; color: var(--muted); margin: 12px 0 8px; }
 .toggle input { accent-color: var(--leaf); width: 18px; height: 18px; }
+
+.meter-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.meter.small .row { font-size: 13px; }
+.meter.small .bar { height: 6px; background: var(--line); }
+.meter.small .bar span { background: var(--muted); }
+.meter.small.over .bar span { background: var(--chilli); }

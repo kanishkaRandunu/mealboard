@@ -17,7 +17,8 @@
   const STORE_KEY = 'mealboard:v1';
 
   // ---------- state ----------
-  const defaults = () => ({ targets: { kcal: 2000, p: 150 }, weeks: {}, checked: {}, extras: {} });
+  const DEFAULT_TARGETS = { kcal: 2000, p: 150, c: 215, f: 60 };
+  const defaults = () => ({ targets: { ...DEFAULT_TARGETS }, weeks: {}, checked: {}, extras: {} });
   let state = load();
   let data = null; // meals.json
   let mealMacros = {};
@@ -27,7 +28,10 @@
     try {
       const raw = localStorage.getItem(STORE_KEY);
       if (!raw) return defaults();
-      return Object.assign(defaults(), JSON.parse(raw));
+      const parsed = JSON.parse(raw);
+      const st = Object.assign(defaults(), parsed);
+      st.targets = { ...DEFAULT_TARGETS, ...(parsed.targets || {}) };
+      return st;
     } catch (e) { return defaults(); }
   }
   function save() {
@@ -129,7 +133,7 @@
       return `<li class="slot"><button data-action="open-picker" data-slot="${s.key}">
         <span class="time">${s.time}</span>
         ${m ? `<span class="meal">${esc(m.name)}</span>` : `<span class="meal empty">Add ${s.label.toLowerCase()}</span>`}
-        <span class="macro num">${mm ? `<b>${fmt(mm.kcal)}</b> kcal<br>${fmt(mm.p)} g protein` : ''}</span>
+        <span class="macro num">${mm ? `<b>${fmt(mm.kcal)}</b> kcal<br>P ${fmt(mm.p)} g, C ${fmt(mm.c)} g, F ${fmt(mm.f)} g` : ''}</span>
       </button></li>`;
     }).join('');
 
@@ -140,14 +144,21 @@
       </div>
       <div class="meters">
         <div class="meter ${kOver ? 'over' : ''}">
-          <div class="row"><span>Calories</span><span class="num"><strong>${fmt(t.kcal)}</strong> / ${fmt(T.kcal)}${kOver ? `, ${fmt(t.kcal - T.kcal)} over` : ''}</span></div>
+          <div class="row"><span>Calories</span><span class="num"><strong>${fmt(t.kcal)}</strong> / ${fmt(T.kcal)} kcal${kOver ? `, ${fmt(t.kcal - T.kcal)} over` : ''}</span></div>
           <div class="bar"><span style="width:${Math.min(100, (t.kcal / T.kcal) * 100)}%"></span></div>
         </div>
         <div class="meter protein">
           <div class="row"><span>Protein</span><span class="num"><strong>${fmt(t.p)}</strong> / ${fmt(T.p)} g${t.p < T.p && t.kcal > 0 ? `, ${fmt(T.p - t.p)} g to go` : ''}</span></div>
           <div class="bar"><span style="width:${Math.min(100, (t.p / T.p) * 100)}%"></span></div>
         </div>
-        <div class="cfb num">Carbs ${fmt(t.c)} g, fat ${fmt(t.f)} g</div>
+        <div class="meter-pair">
+          ${[['Carbs', 'c'], ['Fat', 'f']].map(([label, k]) => {
+            const over = t[k] > T[k];
+            return `<div class="meter small ${over ? 'over' : ''}">
+              <div class="row"><span>${label}</span><span class="num"><strong>${fmt(t[k])}</strong> / ${fmt(T[k])} g</span></div>
+              <div class="bar"><span style="width:${Math.min(100, (t[k] / T[k]) * 100)}%"></span></div></div>`;
+          }).join('')}
+        </div>
       </div>
       <ul class="slots">${slots}</ul>
       <div class="day-actions">
@@ -301,6 +312,9 @@
       <form data-action="save-targets">
         <label class="field">Daily calories (kcal)<input name="kcal" type="number" inputmode="numeric" min="1000" max="5000" value="${T.kcal}"></label>
         <label class="field">Daily protein (g)<input name="p" type="number" inputmode="numeric" min="50" max="400" value="${T.p}"></label>
+        <label class="field">Daily carbs (g)<input name="c" type="number" inputmode="numeric" min="0" max="700" value="${T.c}"></label>
+        <label class="field">Daily fat (g)<input name="f" type="number" inputmode="numeric" min="0" max="300" value="${T.f}"></label>
+        <p class="fine" id="macro-check"></p>
         <button class="primary" type="submit">Save targets</button>
       </form>
       <div class="settings-actions">
@@ -309,7 +323,15 @@
         <button class="chip-btn danger" data-action="clear-week">Clear this week's plan</button>
       </div>
       <p class="fine">Your plan is saved on this device only. Export a backup before switching phones.</p></div>`;
+    macroCheck($sheet.querySelector('form'));
     showSheet();
+  }
+  function macroCheck(form) {
+    const el = document.getElementById('macro-check'); if (!el) return;
+    const fromMacros = (+form.p.value) * 4 + (+form.c.value) * 4 + (+form.f.value) * 9;
+    const diff = fromMacros - (+form.kcal.value);
+    el.textContent = `Your macros add up to ${fmt(fromMacros)} kcal (protein and carbs 4 kcal/g, fat 9 kcal/g)` +
+      (Math.abs(diff) <= 50 ? ', which matches your calorie target.' : `, ${fmt(Math.abs(diff))} kcal ${diff > 0 ? 'above' : 'below'} your calorie target.`);
   }
   function showSheet() { if (!$sheet.open) $sheet.showModal(); }
   function closeSheet() { if ($sheet.open) $sheet.close(); }
@@ -383,6 +405,7 @@
       document.getElementById('meal-count').textContent = `${rows.count} of ${data.meals.length} meals`;
     }
     if (e.target.id === 'pick-q') { pick.q = e.target.value; renderPickList(); }
+    if (e.target.form && e.target.form.dataset.action === 'save-targets') macroCheck(e.target.form);
   });
   document.addEventListener('submit', (e) => {
     const form = e.target; e.preventDefault();
@@ -392,9 +415,11 @@
       save(); render(); document.querySelector('.add-row input')?.focus();
     }
     if (form.dataset.action === 'save-targets') {
-      const kcal = +form.kcal.value, p = +form.p.value;
-      if (!(kcal >= 1000 && kcal <= 5000 && p >= 50 && p <= 400)) { toast('Use 1,000–5,000 kcal and 50–400 g protein'); return; }
-      state.targets = { kcal, p }; save(); closeSheet(); render(); toast('Targets saved');
+      const kcal = +form.kcal.value, p = +form.p.value, c = +form.c.value, f = +form.f.value;
+      if (!(kcal >= 1000 && kcal <= 5000 && p >= 50 && p <= 400 && c >= 0 && c <= 700 && f >= 0 && f <= 300)) {
+        toast('Use 1,000–5,000 kcal, 50–400 g protein, 0–700 g carbs and 0–300 g fat'); return;
+      }
+      state.targets = { kcal, p, c, f }; save(); closeSheet(); render(); toast('Targets saved');
     }
   });
 

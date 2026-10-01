@@ -4,7 +4,7 @@ Written so any agent or person can pick this up cold.
 
 ## Purpose
 
-Plan a week of meals that fit a daily target (default 2,000 kcal, 150 g protein, eaten 12:00 to 20:00) and generate the grocery list. Not a calorie logger: Cronometer does logging, Caliber does training.
+Plan a week of meals that fit a daily target (default 2,000 kcal, 150 g protein, 215 g carbs, 60 g fat, eaten 12:00 to 20:00) and generate the grocery list. Not a calorie logger: Cronometer does logging, Caliber does training.
 
 ## Stack
 
@@ -49,7 +49,7 @@ Rules:
 
 ```jsonc
 {
-  "targets": { "kcal": 2000, "p": 150 },
+  "targets": { "kcal": 2000, "p": 150, "c": 215, "f": 60 },   // kcal; protein, carbs, fat in g
   "weeks":   { "2026-09-28": { "days": [ { "s0": "meal_id", "s1": "...", "s2": "...", "s3": "..." }, ... 7 ] } },
   "checked": { "2026-09-28": { "<ingredient id>": true, "x:0": true } },  // grocery ticks; x:N = added item N
   "extras":  { "2026-09-28": ["dishwashing liquid"] }
