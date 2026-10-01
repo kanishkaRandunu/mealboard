@@ -21,7 +21,7 @@
   let state = load();
   let data = null; // meals.json
   let mealMacros = {};
-  let ui = { tab: 'plan', weekStart: mondayOf(new Date()), day: dayIndex(new Date()), filter: 'all', cuisine: 'all' };
+  let ui = { tab: 'plan', weekStart: mondayOf(new Date()), day: dayIndex(new Date()), filter: 'all', cuisine: 'all', q: '' };
 
   function load() {
     try {
@@ -202,7 +202,7 @@
     $view.innerHTML = `
       <div class="g-head"><h2>Groceries</h2>
         <button class="primary" data-action="share-list" ${items.length || extras.length ? '' : 'disabled'}>Share list</button></div>
-      <p class="g-sub">${planned ? `From ${planned} planned meals this week. Quantities are raw weight, rounded up.` : 'Plan some meals and the list fills itself.'}</p>
+      <p class="g-sub">${planned ? `From ${planned} planned ${planned === 1 ? 'meal' : 'meals'} this week. Quantities are raw weight, rounded up.` : 'Plan some meals and the list fills itself.'}</p>
       ${sections || (planned ? '' : '<p class="empty-state">Nothing to buy yet. Go to Plan and add meals to the week.</p>')}
       <section class="g-section"><h3>Other items</h3><ul class="g-list">${extraRows}</ul>
         <form class="add-row" data-action="add-extra">
@@ -214,15 +214,12 @@
       ${Object.keys(checked).length || extras.length ? '<div class="day-actions"><button class="chip-btn" data-action="reset-list">Untick all and clear added items</button></div>' : ''}`;
   }
 
-  function renderMeals() {
-    const f = ui.filter;
-    const chips = [['all', 'All'], ['first', 'First meals'], ['main', 'Mains'], ['snack', 'Snacks']]
-      .map(([k, l]) => `<button class="chip-btn" data-action="filter" data-filter="${k}" aria-pressed="${f === k}">${l}</button>`).join('');
-    const cuisines = [...new Set(data.meals.map((m) => m.cuisine).filter(Boolean))].sort((a, b) => a.localeCompare(b));
-    const cz = ui.cuisine;
-    const cchips = [['all', 'All cuisines'], ...cuisines.map((c) => [c, c])]
-      .map(([k, l]) => `<button class="chip-btn" data-action="cuisine" data-cuisine="${esc(k)}" aria-pressed="${cz === k}">${esc(l)}</button>`).join('');
-    const shown = data.meals.filter((m) => (f === 'all' || m.slot === f) && (cz === 'all' || m.cuisine === cz));
+  const matchQ = (m, q) => !q || (m.name + ' ' + (m.cuisine || '') + ' ' + (m.tags || []).join(' ')).toLowerCase().includes(q.toLowerCase());
+  const subline = (m) => [SLOT_NAMES[m.slot], m.cuisine, m.prep_min ? `${m.prep_min} min` : ''].filter(Boolean).map(esc).join(', ');
+
+  function mealRows() {
+    const f = ui.filter, cz = ui.cuisine, q = ui.q || '';
+    const shown = data.meals.filter((m) => (f === 'all' || m.slot === f) && (cz === 'all' || m.cuisine === cz) && matchQ(m, q));
     const list = shown.map((m) => {
       const mm = mealMacros[m.id];
       const ings = m.items.map(([id, g]) => {
@@ -232,44 +229,69 @@
         return `<tr><td>${esc(ing.name)}</td><td class="num">${amount}</td></tr>`;
       }).join('');
       return `<li class="meal-item"><details><summary>
-          <span><span class="mname">${esc(m.name)}</span><br><span class="mslot">${SLOT_NAMES[m.slot]}${m.cuisine ? `, ${esc(m.cuisine)}` : ''}</span></span>
+          <span><span class="mname">${esc(m.name)}</span><br><span class="mslot">${subline(m)}</span></span>
           <span class="macro num"><b>${fmt(mm.kcal)}</b> kcal<br>${fmt(mm.p)} g protein</span></summary>
         <div class="cfb num">Carbs ${fmt(mm.c)} g, fat ${fmt(mm.f)} g. Weights are raw or dry.</div>
         <table class="ing">${ings}</table>
         <p class="method">${esc(m.method)}</p></details></li>`;
     }).join('');
-    $view.innerHTML = `<div class="filters" role="group" aria-label="Filter by meal type">${chips}</div>
+    return { count: shown.length, html: list || '<li class="empty-state">No meals match. Clear the search or pick a different type or cuisine.</li>' };
+  }
+
+  function cuisineList() { return [...new Set(data.meals.map((m) => m.cuisine).filter(Boolean))].sort((a, b) => a.localeCompare(b)); }
+
+  function renderMeals() {
+    const f = ui.filter, cz = ui.cuisine;
+    const chips = [['all', 'All'], ['first', 'First meals'], ['main', 'Mains'], ['snack', 'Snacks']]
+      .map(([k, l]) => `<button class="chip-btn" data-action="filter" data-filter="${k}" aria-pressed="${f === k}">${l}</button>`).join('');
+    const cchips = [['all', 'All cuisines'], ...cuisineList().map((c) => [c, c])]
+      .map(([k, l]) => `<button class="chip-btn" data-action="cuisine" data-cuisine="${esc(k)}" aria-pressed="${cz === k}">${esc(l)}</button>`).join('');
+    const rows = mealRows();
+    $view.innerHTML = `<input class="search" type="search" id="meal-q" placeholder="Search meals, e.g. kottu, salmon, batch" value="${esc(ui.q || '')}" aria-label="Search meals" autocomplete="off">
+      <div class="filters" role="group" aria-label="Filter by meal type">${chips}</div>
       <div class="filters" role="group" aria-label="Filter by cuisine">${cchips}</div>
-      <p class="g-sub">${shown.length} of ${data.meals.length} meals</p>
-      <ul class="meal-list">${list || '<li class="empty-state">No meals match both filters. Pick a different type or cuisine.</li>'}</ul>
+      <p class="g-sub" id="meal-count">${rows.count} of ${data.meals.length} meals</p>
+      <ul class="meal-list" id="meal-list">${rows.html}</ul>
       <p class="fine">Nutrition is calculated from typical values per 100 g. Check labels in Cronometer when you save these as recipes.</p>`;
   }
 
   // ---------- sheets ----------
+  let pick = null;
   function openPicker(slotKey) {
+    pick = { slotKey, q: '', cuisine: 'all', all: false };
     const slot = SLOTS.find((s) => s.key === slotKey);
-    const day = week().days[ui.day];
-    const current = day[slotKey];
-    const others = { ...day }; delete others[slotKey];
-    const base = dayTotals(others);
-    const T = state.targets;
-    const item = (m) => {
-      const mm = mealMacros[m.id];
-      const after = base.kcal + mm.kcal;
-      return `<li><button data-action="choose" data-slot="${slotKey}" data-meal="${m.id}" aria-current="${m.id === current}">
-        <span><span class="mname">${esc(m.name)}</span><br>
-        <span class="fit ${after > T.kcal ? 'bad' : ''}">${m.cuisine ? `${esc(m.cuisine)}. ` : ''}Day would be ${fmt(after)} kcal</span></span>
-        <span class="macro num"><b>${fmt(mm.kcal)}</b> kcal<br>${fmt(mm.p)} g protein</span></button></li>`;
-    };
-    const match = data.meals.filter((m) => m.slot === slot.type);
-    const rest = data.meals.filter((m) => m.slot !== slot.type);
+    const current = week().days[ui.day][slotKey];
+    const cchips = [['all', 'All cuisines'], ...cuisineList().map((c) => [c, c])]
+      .map(([k, l]) => `<button class="chip-btn" data-action="pick-cuisine" data-cuisine="${esc(k)}" aria-pressed="${k === 'all'}">${esc(l)}</button>`).join('');
     $sheet.innerHTML = `<div class="sheet-inner">
       <div class="sheet-head"><h2>${slot.time === 'Snack' ? 'Snack' : `${slot.label}, ${slot.time}`}</h2>
         <button class="text-btn" data-action="close-sheet">Done</button></div>
-      ${current ? '<button class="chip-btn" data-action="choose" data-slot="' + slotKey + '" data-meal="">Remove meal</button>' : ''}
-      <div class="pick-group">Suggested</div><ul class="pick">${match.map(item).join('')}</ul>
-      <div class="pick-group">Everything else</div><ul class="pick">${rest.map(item).join('')}</ul></div>`;
+      <input class="search" type="search" id="pick-q" placeholder="Search meals" aria-label="Search meals" autocomplete="off">
+      <div class="filters" role="group" aria-label="Filter by cuisine">${cchips}</div>
+      <label class="toggle"><input type="checkbox" id="pick-all"> Show all meal types, not just ${SLOT_NAMES[slot.type].toLowerCase()}s</label>
+      ${current ? `<button class="chip-btn" data-action="choose" data-slot="${slotKey}" data-meal="">Remove ${esc(mealById(current)?.name || 'meal')}</button>` : ''}
+      <ul class="pick" id="pick-list"></ul></div>`;
+    renderPickList();
     showSheet();
+  }
+  function renderPickList() {
+    if (!pick) return;
+    const slot = SLOTS.find((s) => s.key === pick.slotKey);
+    const day = week().days[ui.day];
+    const current = day[pick.slotKey];
+    const others = { ...day }; delete others[pick.slotKey];
+    const base = dayTotals(others);
+    const T = state.targets;
+    const list = data.meals
+      .filter((m) => (pick.all || m.slot === slot.type) && (pick.cuisine === 'all' || m.cuisine === pick.cuisine) && matchQ(m, pick.q))
+      .map((m) => ({ m, mm: mealMacros[m.id], after: base.kcal + mealMacros[m.id].kcal }))
+      .sort((a, b) => (a.m.slot !== slot.type) - (b.m.slot !== slot.type) || (a.after > T.kcal) - (b.after > T.kcal) || (b.mm.p / b.mm.kcal) - (a.mm.p / a.mm.kcal));
+    document.getElementById('pick-list').innerHTML = list.map(({ m, mm, after }) =>
+      `<li><button data-action="choose" data-slot="${pick.slotKey}" data-meal="${m.id}" aria-current="${m.id === current}">
+        <span><span class="mname">${esc(m.name)}</span><br>
+        <span class="fit ${after > T.kcal ? 'bad' : ''}">${m.cuisine ? `${esc(m.cuisine)}. ` : ''}Day would be ${fmt(after)} kcal</span></span>
+        <span class="macro num"><b>${fmt(mm.kcal)}</b> kcal<br>${fmt(mm.p)} g protein</span></button></li>`).join('')
+      || '<li class="empty-state">No meals match. Clear the search or change the cuisine.</li>';
   }
 
   function openSettings() {
@@ -323,6 +345,10 @@
       case 'clear-day': w.days[ui.day] = {}; save(); render(); break;
       case 'filter': ui.filter = el.dataset.filter; render(); break;
       case 'cuisine': ui.cuisine = el.dataset.cuisine; render(); break;
+      case 'pick-cuisine':
+        pick.cuisine = el.dataset.cuisine;
+        el.parentElement.querySelectorAll('[data-action=pick-cuisine]').forEach((b) => b.setAttribute('aria-pressed', b === el));
+        renderPickList(); break;
       case 'share-list': shareList(); break;
       case 'reset-list': delete state.checked[weekKey()]; delete state.extras[weekKey()]; save(); render(); break;
       case 'open-settings': openSettings(); break;
@@ -346,8 +372,18 @@
       save(); el.closest('.g-item').classList.toggle('done', el.checked);
     }
     if (el.dataset.action === 'import' && el.files[0]) importData(el.files[0]);
+    if (el.id === 'pick-all') { pick.all = el.checked; renderPickList(); }
   });
 
+  document.addEventListener('input', (e) => {
+    if (e.target.id === 'meal-q') {
+      ui.q = e.target.value;
+      const rows = mealRows();
+      document.getElementById('meal-list').innerHTML = rows.html;
+      document.getElementById('meal-count').textContent = `${rows.count} of ${data.meals.length} meals`;
+    }
+    if (e.target.id === 'pick-q') { pick.q = e.target.value; renderPickList(); }
+  });
   document.addEventListener('submit', (e) => {
     const form = e.target; e.preventDefault();
     if (form.dataset.action === 'add-extra') {

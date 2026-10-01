@@ -215,3 +215,11 @@ details.pantry summary { cursor: pointer; color: var(--muted); font-size: 15px; 
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
 @media (prefers-reduced-motion: reduce) { .toast { transition: none; } }
 .empty-state { color: var(--muted); padding: 24px 0; }
+
+.search {
+  width: 100%; margin-top: 14px; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  border-radius: 12px; padding: 11px 12px; font: 16px var(--body); -webkit-appearance: none; appearance: none;
+}
+.sheet .search { background: var(--paper); margin-top: 4px; }
+.toggle { display: flex; gap: 8px; align-items: center; font-size: 14px; color: var(--muted); margin: 12px 0 8px; }
+.toggle input { accent-color: var(--leaf); width: 18px; height: 18px; }

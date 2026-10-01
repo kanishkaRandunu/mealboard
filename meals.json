@@ -478,6 +478,643 @@
         "c": 75,
         "f": 0.5
       }
+    },
+    "chicken_thigh": {
+      "name": "Chicken thigh fillet, skinless",
+      "section": "Meat & fish",
+      "per100": {
+        "kcal": 121,
+        "p": 19.7,
+        "c": 0,
+        "f": 4.1
+      },
+      "source": "USDA SR Legacy: chicken thigh, meat only, raw"
+    },
+    "beef_diced": {
+      "name": "Beef, diced, lean (chuck/blade), trimmed",
+      "section": "Meat & fish",
+      "per100": {
+        "kcal": 130,
+        "p": 21.2,
+        "c": 0,
+        "f": 5.0
+      },
+      "source": "Approx. USDA SR Legacy: beef chuck, lean only, raw"
+    },
+    "prawns": {
+      "name": "Prawns, raw, peeled",
+      "section": "Frozen",
+      "per100": {
+        "kcal": 85,
+        "p": 20.1,
+        "c": 0,
+        "f": 0.5
+      },
+      "source": "USDA FDC: shrimp, raw"
+    },
+    "squid": {
+      "name": "Squid/calamari tubes, raw",
+      "section": "Frozen",
+      "per100": {
+        "kcal": 92,
+        "p": 15.6,
+        "c": 3.1,
+        "f": 1.4
+      },
+      "source": "USDA SR Legacy: squid, mixed species, raw"
+    },
+    "salmon_can": {
+      "name": "Pink salmon, tinned, drained",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 136,
+        "p": 23.1,
+        "c": 0,
+        "f": 4.8
+      },
+      "source": "Approx. USDA SR Legacy: pink salmon, canned, drained solids"
+    },
+    "sardines": {
+      "name": "Sardines in oil, tinned, drained",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 208,
+        "p": 24.6,
+        "c": 0,
+        "f": 11.5
+      },
+      "source": "USDA SR Legacy: sardine, Atlantic, canned in oil, drained"
+    },
+    "tofu_firm": {
+      "name": "Tofu, firm",
+      "section": "Produce",
+      "per100": {
+        "kcal": 144,
+        "p": 17.3,
+        "c": 2.8,
+        "f": 8.7
+      },
+      "source": "USDA SR Legacy: tofu, firm, prepared with calcium sulfate"
+    },
+    "cottage_cheese": {
+      "name": "Cottage cheese, reduced fat",
+      "section": "Dairy & eggs",
+      "per100": {
+        "kcal": 81,
+        "p": 10.5,
+        "c": 4.8,
+        "f": 2.3
+      },
+      "source": "USDA SR Legacy: cottage cheese, lowfat 2%"
+    },
+    "ricotta": {
+      "name": "Ricotta, reduced fat",
+      "section": "Dairy & eggs",
+      "per100": {
+        "kcal": 138,
+        "p": 11.4,
+        "c": 5.1,
+        "f": 7.9
+      },
+      "source": "USDA SR Legacy: ricotta, part-skim"
+    },
+    "mozzarella_light": {
+      "name": "Mozzarella, reduced fat, grated",
+      "section": "Dairy & eggs",
+      "per100": {
+        "kcal": 254,
+        "p": 24.3,
+        "c": 2.8,
+        "f": 15.9
+      },
+      "source": "USDA SR Legacy: mozzarella, part-skim"
+    },
+    "parmesan": {
+      "name": "Parmesan, grated",
+      "section": "Dairy & eggs",
+      "per100": {
+        "kcal": 392,
+        "p": 35.8,
+        "c": 3.2,
+        "f": 25.8
+      },
+      "source": "USDA SR Legacy: parmesan, hard"
+    },
+    "cabbage": {
+      "name": "Cabbage",
+      "section": "Produce",
+      "per100": {
+        "kcal": 25,
+        "p": 1.3,
+        "c": 5.8,
+        "f": 0.1
+      },
+      "source": "USDA SR Legacy: cabbage, raw"
+    },
+    "green_beans": {
+      "name": "Green beans",
+      "section": "Produce",
+      "per100": {
+        "kcal": 31,
+        "p": 1.8,
+        "c": 7.0,
+        "f": 0.2
+      },
+      "source": "USDA SR Legacy: snap beans, green, raw"
+    },
+    "zucchini": {
+      "name": "Zucchini",
+      "section": "Produce",
+      "per100": {
+        "kcal": 17,
+        "p": 1.2,
+        "c": 3.1,
+        "f": 0.3
+      },
+      "source": "USDA SR Legacy: zucchini, raw"
+    },
+    "mushroom": {
+      "name": "Mushrooms, button/cup",
+      "section": "Produce",
+      "per100": {
+        "kcal": 22,
+        "p": 3.1,
+        "c": 3.3,
+        "f": 0.3
+      },
+      "source": "USDA SR Legacy: white mushrooms, raw"
+    },
+    "eggplant": {
+      "name": "Eggplant",
+      "section": "Produce",
+      "per100": {
+        "kcal": 25,
+        "p": 1.0,
+        "c": 5.9,
+        "f": 0.2
+      },
+      "source": "USDA SR Legacy: eggplant, raw"
+    },
+    "potato": {
+      "name": "Potato, washed",
+      "section": "Produce",
+      "per100": {
+        "kcal": 77,
+        "p": 2.0,
+        "c": 17.5,
+        "f": 0.1
+      },
+      "source": "USDA SR Legacy: potato, flesh and skin, raw"
+    },
+    "pumpkin": {
+      "name": "Butternut pumpkin",
+      "section": "Produce",
+      "per100": {
+        "kcal": 45,
+        "p": 1.0,
+        "c": 11.7,
+        "f": 0.1
+      },
+      "source": "USDA SR Legacy: butternut squash, raw"
+    },
+    "lettuce": {
+      "name": "Cos lettuce",
+      "section": "Produce",
+      "per100": {
+        "kcal": 17,
+        "p": 1.2,
+        "c": 3.3,
+        "f": 0.3
+      },
+      "source": "USDA SR Legacy: romaine lettuce, raw"
+    },
+    "rocket": {
+      "name": "Rocket",
+      "section": "Produce",
+      "per100": {
+        "kcal": 25,
+        "p": 2.6,
+        "c": 3.7,
+        "f": 0.7
+      },
+      "source": "USDA SR Legacy: arugula, raw"
+    },
+    "kale": {
+      "name": "Kale",
+      "section": "Produce",
+      "per100": {
+        "kcal": 35,
+        "p": 2.9,
+        "c": 4.4,
+        "f": 1.5
+      },
+      "source": "USDA FDC: kale, raw"
+    },
+    "bok_choy": {
+      "name": "Bok choy",
+      "section": "Produce",
+      "per100": {
+        "kcal": 13,
+        "p": 1.5,
+        "c": 2.2,
+        "f": 0.2
+      },
+      "source": "USDA SR Legacy: pak-choi, raw"
+    },
+    "spring_onion": {
+      "name": "Spring onion",
+      "section": "Produce",
+      "per100": {
+        "kcal": 32,
+        "p": 1.8,
+        "c": 7.3,
+        "f": 0.2
+      },
+      "source": "USDA SR Legacy: scallions, raw"
+    },
+    "apple": {
+      "name": "Apple",
+      "section": "Produce",
+      "per100": {
+        "kcal": 52,
+        "p": 0.3,
+        "c": 13.8,
+        "f": 0.2
+      },
+      "source": "USDA SR Legacy: apple with skin, raw",
+      "each": {
+        "g": 150,
+        "label": "apple",
+        "plural": "apples"
+      }
+    },
+    "beetroot": {
+      "name": "Beetroot",
+      "section": "Produce",
+      "per100": {
+        "kcal": 43,
+        "p": 1.6,
+        "c": 9.6,
+        "f": 0.2
+      },
+      "source": "USDA SR Legacy: beets, raw"
+    },
+    "corn_frozen": {
+      "name": "Corn kernels, frozen",
+      "section": "Frozen",
+      "per100": {
+        "kcal": 88,
+        "p": 3.0,
+        "c": 20.7,
+        "f": 0.8
+      },
+      "source": "USDA SR Legacy: sweet corn, frozen kernels, unprepared"
+    },
+    "peas_frozen": {
+      "name": "Peas, frozen",
+      "section": "Frozen",
+      "per100": {
+        "kcal": 77,
+        "p": 5.2,
+        "c": 13.6,
+        "f": 0.4
+      },
+      "source": "USDA SR Legacy: green peas, frozen, unprepared"
+    },
+    "edamame": {
+      "name": "Edamame, shelled, frozen",
+      "section": "Frozen",
+      "per100": {
+        "kcal": 121,
+        "p": 11.9,
+        "c": 8.9,
+        "f": 5.2
+      },
+      "source": "USDA SR Legacy: edamame, frozen, prepared"
+    },
+    "tomato_tin": {
+      "name": "Diced tomatoes, tinned",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 16,
+        "p": 0.8,
+        "c": 3.5,
+        "f": 0.1
+      },
+      "source": "USDA SR Legacy: tomatoes, canned in tomato juice"
+    },
+    "tomato_paste": {
+      "name": "Tomato paste",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 82,
+        "p": 4.3,
+        "c": 18.9,
+        "f": 0.5
+      },
+      "source": "USDA SR Legacy: tomato paste, canned",
+      "pantry": true
+    },
+    "coconut_desiccated": {
+      "name": "Desiccated coconut",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 660,
+        "p": 6.9,
+        "c": 23.7,
+        "f": 64.5
+      },
+      "source": "USDA SR Legacy: coconut, dried, unsweetened",
+      "pantry": true
+    },
+    "jasmine": {
+      "name": "Jasmine rice",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 365,
+        "p": 7.1,
+        "c": 80.0,
+        "f": 0.7
+      },
+      "source": "USDA SR Legacy: white rice, long-grain, raw"
+    },
+    "brown_rice": {
+      "name": "Brown rice",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 370,
+        "p": 7.9,
+        "c": 77.2,
+        "f": 2.9
+      },
+      "source": "USDA SR Legacy: brown rice, long-grain, raw"
+    },
+    "rice_noodles": {
+      "name": "Rice noodles/vermicelli, dried",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 364,
+        "p": 6.0,
+        "c": 80.2,
+        "f": 0.6
+      },
+      "source": "USDA SR Legacy: rice noodles, dry"
+    },
+    "egg_noodles": {
+      "name": "Egg noodles, dried",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 384,
+        "p": 14.2,
+        "c": 71.3,
+        "f": 4.4
+      },
+      "source": "USDA SR Legacy: egg noodles, dry"
+    },
+    "pasta": {
+      "name": "Pasta, dried (any shape)",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 371,
+        "p": 13.0,
+        "c": 74.7,
+        "f": 1.5
+      },
+      "source": "USDA SR Legacy: pasta, dry"
+    },
+    "couscous": {
+      "name": "Couscous",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 376,
+        "p": 12.8,
+        "c": 77.4,
+        "f": 0.6
+      },
+      "source": "USDA SR Legacy: couscous, dry"
+    },
+    "quinoa": {
+      "name": "Quinoa",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 368,
+        "p": 14.1,
+        "c": 64.2,
+        "f": 6.1
+      },
+      "source": "USDA SR Legacy: quinoa, uncooked"
+    },
+    "bulgur": {
+      "name": "Bulgur (burghul)",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 342,
+        "p": 12.3,
+        "c": 75.9,
+        "f": 1.3
+      },
+      "source": "USDA SR Legacy: bulgur, dry"
+    },
+    "chickpeas_can": {
+      "name": "Chickpeas, tinned, drained",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 136,
+        "p": 7.2,
+        "c": 19.0,
+        "f": 2.1
+      },
+      "source": "Edgell Chick Peas label, per 100 g (edgell.com.au)"
+    },
+    "black_beans_can": {
+      "name": "Black beans, tinned, drained",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 132,
+        "p": 8.9,
+        "c": 23.7,
+        "f": 0.5
+      },
+      "source": "USDA SR Legacy: black beans, cooked, boiled (proxy for drained tinned)"
+    },
+    "kidney_beans_can": {
+      "name": "Red kidney beans, tinned, drained",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 127,
+        "p": 8.7,
+        "c": 22.8,
+        "f": 0.5
+      },
+      "source": "USDA SR Legacy: kidney beans, cooked, boiled (proxy for drained tinned)"
+    },
+    "peanuts": {
+      "name": "Peanuts, dry roasted, unsalted",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 585,
+        "p": 23.7,
+        "c": 21.5,
+        "f": 49.7
+      },
+      "source": "USDA SR Legacy: peanuts, dry-roasted"
+    },
+    "almonds": {
+      "name": "Almonds",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 579,
+        "p": 21.2,
+        "c": 21.6,
+        "f": 49.9
+      },
+      "source": "USDA SR Legacy: almonds"
+    },
+    "tahini": {
+      "name": "Tahini",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 595,
+        "p": 17.0,
+        "c": 21.2,
+        "f": 53.8
+      },
+      "source": "USDA SR Legacy: tahini",
+      "pantry": true
+    },
+    "hummus": {
+      "name": "Hummus",
+      "section": "Dairy & eggs",
+      "per100": {
+        "kcal": 166,
+        "p": 7.9,
+        "c": 14.3,
+        "f": 9.6
+      },
+      "source": "USDA SR Legacy: hummus, commercial"
+    },
+    "honey": {
+      "name": "Honey",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 304,
+        "p": 0.3,
+        "c": 82.4,
+        "f": 0
+      },
+      "source": "USDA SR Legacy: honey",
+      "pantry": true
+    },
+    "sesame_oil": {
+      "name": "Sesame oil",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 884,
+        "p": 0,
+        "c": 0,
+        "f": 100
+      },
+      "source": "USDA SR Legacy: sesame oil",
+      "pantry": true
+    },
+    "canola_oil": {
+      "name": "Canola oil",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 884,
+        "p": 0,
+        "c": 0,
+        "f": 100
+      },
+      "source": "USDA SR Legacy: canola oil",
+      "pantry": true
+    },
+    "salsa": {
+      "name": "Tomato salsa, jar",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 36,
+        "p": 1.5,
+        "c": 7.0,
+        "f": 0.2
+      },
+      "source": "USDA SR Legacy: salsa, ready-to-serve"
+    },
+    "breadcrumbs": {
+      "name": "Breadcrumbs, dry (panko or plain)",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 395,
+        "p": 13.4,
+        "c": 71.9,
+        "f": 5.3
+      },
+      "source": "USDA SR Legacy: bread crumbs, dry, plain",
+      "pantry": true
+    },
+    "pita_wholemeal": {
+      "name": "Wholemeal pita pocket",
+      "section": "Bakery",
+      "per100": {
+        "kcal": 266,
+        "p": 9.8,
+        "c": 55.0,
+        "f": 2.6
+      },
+      "source": "USDA SR Legacy: pita, whole-wheat",
+      "each": {
+        "g": 64,
+        "label": "pita",
+        "plural": "pitas"
+      }
+    },
+    "corn_tortilla": {
+      "name": "Corn tortillas, small",
+      "section": "Bakery",
+      "per100": {
+        "kcal": 218,
+        "p": 5.7,
+        "c": 44.6,
+        "f": 2.9
+      },
+      "source": "USDA SR Legacy: corn tortillas",
+      "each": {
+        "g": 25,
+        "label": "tortilla",
+        "plural": "tortillas"
+      }
+    },
+    "english_muffin": {
+      "name": "Wholemeal English muffin",
+      "section": "Bakery",
+      "per100": {
+        "kcal": 203,
+        "p": 8.8,
+        "c": 40.4,
+        "f": 2.1
+      },
+      "source": "USDA SR Legacy: English muffin, whole-wheat",
+      "each": {
+        "g": 67,
+        "label": "muffin",
+        "plural": "muffins"
+      }
+    },
+    "rice_cakes": {
+      "name": "Brown rice cakes, plain",
+      "section": "Pantry",
+      "per100": {
+        "kcal": 387,
+        "p": 8.2,
+        "c": 81.5,
+        "f": 2.8
+      },
+      "source": "USDA SR Legacy: rice cakes, brown rice, plain",
+      "each": {
+        "g": 9,
+        "label": "rice cake",
+        "plural": "rice cakes"
+      }
     }
   },
   "meals": [
@@ -512,7 +1149,7 @@
         ]
       ],
       "method": "Whisk eggs and whites. Wilt spinach and tomato in a non-stick pan (no oil), add eggs, stir gently. Crumble feta on top. Serve with toast.",
-      "cuisine": "Western"
+      "cuisine": "Australian & Western"
     },
     {
       "id": "yoghurt_bowl",
@@ -537,7 +1174,7 @@
         ]
       ],
       "method": "Stir whey into the yoghurt until smooth. Top with thawed berries and oats.",
-      "cuisine": "Western"
+      "cuisine": "Australian & Western"
     },
     {
       "id": "protein_oats",
@@ -566,7 +1203,7 @@
         ]
       ],
       "method": "Microwave oats in milk for 2 minutes. Let cool for a minute, then stir in whey. Top with banana and berries.",
-      "cuisine": "Western"
+      "cuisine": "Australian & Western"
     },
     {
       "id": "tuna_wrap",
@@ -603,7 +1240,7 @@
         ]
       ],
       "method": "Mix drained tuna with yoghurt, lemon, salt and pepper. Fill two wraps with spinach, cucumber, tomato, avocado and the tuna.",
-      "cuisine": "Western"
+      "cuisine": "Australian & Western"
     },
     {
       "id": "chicken_rice_bowl",
@@ -636,7 +1273,7 @@
         ]
       ],
       "method": "Cook rice. Slice chicken and cook in the oil until done. Add broccoli and capsicum for 3 minutes, then soy sauce. Serve over rice.",
-      "cuisine": "East Asian"
+      "cuisine": "East & Southeast Asian"
     },
     {
       "id": "chicken_curry",
@@ -747,7 +1384,7 @@
         ]
       ],
       "method": "Brown mince in a dry pan with garlic and chilli, add soy sauce. Serve over rice with grated carrot and cucumber.",
-      "cuisine": "East Asian"
+      "cuisine": "East & Southeast Asian"
     },
     {
       "id": "beef_stirfry",
@@ -780,7 +1417,7 @@
         ]
       ],
       "method": "Slice beef thinly and sear in the oil on high heat. Remove, stir-fry vegetables, return beef with soy and oyster sauce. Serve over rice.",
-      "cuisine": "East Asian"
+      "cuisine": "East & Southeast Asian"
     },
     {
       "id": "salmon_traybake",
@@ -809,7 +1446,7 @@
         ]
       ],
       "method": "Roast cubed sweet potato at 200°C for 20 minutes. Add salmon and broccoli, roast 12 more minutes. Serve with yoghurt mixed with lemon juice and garlic.",
-      "cuisine": "Western"
+      "cuisine": "Australian & Western"
     },
     {
       "id": "protein_pudding",
@@ -838,7 +1475,7 @@
         ]
       ],
       "method": "Shake whey, chia, cocoa and almond milk in a jar. Rest 10 minutes or overnight. Top with sliced banana.",
-      "cuisine": "Western"
+      "cuisine": "Australian & Western"
     },
     {
       "id": "yoghurt_cup",
@@ -859,7 +1496,7 @@
         ]
       ],
       "method": "Stir half a scoop of whey into the yoghurt, top with berries.",
-      "cuisine": "Western"
+      "cuisine": "Australian & Western"
     },
     {
       "id": "shake_water",
@@ -1048,6 +1685,7280 @@
         ]
       ],
       "method": "Blend with ice until thick. Highest protein of the shakes. Add 5 g creatine (one level teaspoon) to any shake; it has no calories."
+    },
+    {
+      "id": "sl_tuna_roti_wraps",
+      "name": "Spicy tuna roti wraps (malu roti style)",
+      "slot": "first",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "tuna_can",
+          140
+        ],
+        [
+          "potato",
+          75
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "wholemeal_wrap",
+          86
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Microwave the diced potato until soft. Fry onion, curry leaves, green chilli and a pinch of curry powder in the oil, then add the tuna and potato and mash together with lemon juice. Roll the filling in the wraps and toast them in a dry pan until golden."
+    },
+    {
+      "id": "sl_chilli_omelette_toast",
+      "name": "Sri Lankan chilli omelette with toast",
+      "slot": "first",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 10,
+      "items": [
+        [
+          "egg_white",
+          120
+        ],
+        [
+          "egg",
+          156
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "tomato",
+          80
+        ],
+        [
+          "wholegrain_bread",
+          70
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Whisk the eggs and egg whites with chopped onion, green chilli, curry leaves, pepper and salt. Cook in the oil as a flat omelette and serve with toast and sliced tomato."
+    },
+    {
+      "id": "sl_kadala_thel_dala_eggs",
+      "name": "Tempered chickpeas with eggs (kadala thel dala)",
+      "slot": "first",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "vegetarian",
+        "under-15-min"
+      ],
+      "prep_min": 15,
+      "items": [
+        [
+          "egg_white",
+          150
+        ],
+        [
+          "egg",
+          104
+        ],
+        [
+          "chickpeas_can",
+          130
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "coconut_desiccated",
+          5
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Boil the eggs. Temper mustard seeds, curry leaves, dried chilli and onion in the oil, add the chickpeas and coconut, then pour in the egg whites and stir until just set. Serve with the halved boiled eggs."
+    },
+    {
+      "id": "sl_salmon_tempered_rice",
+      "name": "Tempered tinned salmon with onion and rice",
+      "slot": "first",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 15,
+      "items": [
+        [
+          "salmon_can",
+          160
+        ],
+        [
+          "onion",
+          80
+        ],
+        [
+          "capsicum",
+          50
+        ],
+        [
+          "basmati",
+          45
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Cook the rice. Fry sliced onion, capsicum, curry leaves, green chilli and chilli flakes in the oil, then fold through the drained salmon with lemon juice until hot. Serve over the rice."
+    },
+    {
+      "id": "sl_spicy_chicken_sandwich",
+      "name": "Spicy Sri Lankan chicken sandwich",
+      "slot": "first",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_breast",
+          150
+        ],
+        [
+          "wholegrain_bread",
+          80
+        ],
+        [
+          "onion",
+          30
+        ],
+        [
+          "greek_yog",
+          40
+        ],
+        [
+          "cucumber",
+          50
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Poach the chicken, shred it and fry briefly with onion, curry powder, chilli flakes and curry leaves in the oil. Cool slightly, mix with the yoghurt and pile onto the bread with sliced cucumber."
+    },
+    {
+      "id": "sl_kale_mallung_tuna_rice",
+      "name": "Kale mallung with spicy tuna and rice",
+      "slot": "first",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "tuna_can",
+          140
+        ],
+        [
+          "kale",
+          100
+        ],
+        [
+          "coconut_desiccated",
+          10
+        ],
+        [
+          "onion",
+          30
+        ],
+        [
+          "basmati",
+          50
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Cook the rice. Shred the kale very finely and toss in a hot pan with half the oil, onion, turmeric, green chilli and the coconut for 2–3 minutes. Fry the tuna with chilli powder and lemon juice in the remaining oil and serve with the mallung and rice."
+    },
+    {
+      "id": "sl_chicken_egg_fried_rice",
+      "name": "Sri Lankan chicken and egg fried rice",
+      "slot": "first",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_breast",
+          130
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "basmati",
+          50
+        ],
+        [
+          "mixed_veg_frozen",
+          80
+        ],
+        [
+          "coconut_oil",
+          6
+        ],
+        [
+          "soy_sauce",
+          10
+        ]
+      ],
+      "method": "Cook the rice ahead and chill it. Stir-fry the diced chicken in the oil with garlic and pepper, push aside and scramble the egg, then add the vegetables, rice and soy sauce and toss on high heat."
+    },
+    {
+      "id": "tandoori_chicken_wraps",
+      "name": "Tandoori chicken wraps with yoghurt",
+      "slot": "first",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "air-fryer",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_breast",
+          150
+        ],
+        [
+          "greek_yog",
+          60
+        ],
+        [
+          "wholemeal_wrap",
+          86
+        ],
+        [
+          "lettuce",
+          30
+        ],
+        [
+          "tomato",
+          50
+        ],
+        [
+          "onion",
+          20
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Marinate the chicken in half the yoghurt with tandoori spices and lemon juice. Toss with the oil and air-fry at 200°C for 12–14 minutes, then slice. Wrap with the salad and the remaining yoghurt mixed with mint."
+    },
+    {
+      "id": "egg_bhurji_toast",
+      "name": "Masala egg bhurji on toast",
+      "slot": "first",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "vegetarian",
+        "under-15-min"
+      ],
+      "prep_min": 12,
+      "items": [
+        [
+          "egg_white",
+          130
+        ],
+        [
+          "egg",
+          156
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "wholegrain_bread",
+          70
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Soften onion, green chilli and tomato in the oil with turmeric, cumin and garam masala. Add the beaten eggs and egg whites and stir gently until softly scrambled, then finish with coriander. Serve on toast."
+    },
+    {
+      "id": "tandoori_fish_roti_raita",
+      "name": "Tandoori fish with roti and mint raita",
+      "slot": "first",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "air-fryer",
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "white_fish",
+          180
+        ],
+        [
+          "greek_yog",
+          80
+        ],
+        [
+          "wholemeal_wrap",
+          86
+        ],
+        [
+          "cucumber",
+          50
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Coat the fish in a little of the yoghurt with tandoori spices and lemon, brush with the oil and air-fry at 200°C for 8–10 minutes. Mix the rest of the yoghurt with grated cucumber and mint. Warm the wraps as roti and serve together."
+    },
+    {
+      "id": "bun_ga_noodle_salad",
+      "name": "Vietnamese chicken noodle salad (bún gà)",
+      "slot": "first",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_breast",
+          160
+        ],
+        [
+          "rice_noodles",
+          50
+        ],
+        [
+          "lettuce",
+          40
+        ],
+        [
+          "cucumber",
+          60
+        ],
+        [
+          "carrot",
+          40
+        ],
+        [
+          "peanuts",
+          10
+        ]
+      ],
+      "method": "Grill or poach the chicken and slice. Soak and drain the noodles, then pile into a bowl with lettuce, cucumber, carrot, mint and the chicken. Dress with fish sauce, lime juice, water and chilli, and scatter with crushed peanuts."
+    },
+    {
+      "id": "tuna_poke_bowl",
+      "name": "Tuna poke-style rice bowl",
+      "slot": "first",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 12,
+      "items": [
+        [
+          "tuna_can",
+          150
+        ],
+        [
+          "jasmine",
+          50
+        ],
+        [
+          "edamame",
+          60
+        ],
+        [
+          "cucumber",
+          60
+        ],
+        [
+          "avocado",
+          30
+        ],
+        [
+          "soy_sauce",
+          10
+        ],
+        [
+          "sesame_oil",
+          3
+        ]
+      ],
+      "method": "Cook the rice or use batch rice. Toss the tuna with soy sauce, sesame oil, chilli and spring onion. Serve over the rice with edamame, cucumber and avocado."
+    },
+    {
+      "id": "prawn_egg_fried_rice",
+      "name": "Prawn and egg fried rice",
+      "slot": "first",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "prawns",
+          150
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "jasmine",
+          50
+        ],
+        [
+          "peas_frozen",
+          50
+        ],
+        [
+          "spring_onion",
+          20
+        ],
+        [
+          "soy_sauce",
+          10
+        ],
+        [
+          "canola_oil",
+          6
+        ]
+      ],
+      "method": "Use cold cooked rice. Stir-fry the prawns in the oil with garlic until pink, push aside and scramble the egg, then add peas, rice, soy sauce and spring onion and toss on high heat."
+    },
+    {
+      "id": "ginger_chicken_congee",
+      "name": "Ginger chicken congee with egg",
+      "slot": "first",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "batch"
+      ],
+      "prep_min": 60,
+      "items": [
+        [
+          "chicken_breast",
+          150
+        ],
+        [
+          "jasmine",
+          50
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "spring_onion",
+          20
+        ],
+        [
+          "soy_sauce",
+          5
+        ]
+      ],
+      "method": "Simmer the rice in 6–7 times its volume of water with sliced ginger for about 45 minutes (or use the rice cooker's porridge setting), adding the chicken for the last 15 minutes. Shred the chicken back in, stir through a beaten egg and top with spring onion, soy sauce and white pepper."
+    },
+    {
+      "id": "oyakodon",
+      "name": "Oyakodon (Japanese chicken and egg rice bowl)",
+      "slot": "first",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_thigh",
+          150
+        ],
+        [
+          "egg",
+          104
+        ],
+        [
+          "onion",
+          50
+        ],
+        [
+          "jasmine",
+          45
+        ],
+        [
+          "soy_sauce",
+          15
+        ],
+        [
+          "honey",
+          5
+        ]
+      ],
+      "method": "Simmer sliced onion in 80 ml water with the soy sauce and honey for 3 minutes. Add bite-sized chicken and cook 6–7 minutes, then pour over the beaten eggs, cover and cook until just set. Slide onto the rice."
+    },
+    {
+      "id": "chicken_bokchoy_noodle_soup",
+      "name": "Chicken and bok choy noodle soup",
+      "slot": "first",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_breast",
+          150
+        ],
+        [
+          "egg_noodles",
+          60
+        ],
+        [
+          "bok_choy",
+          100
+        ],
+        [
+          "spring_onion",
+          15
+        ],
+        [
+          "soy_sauce",
+          10
+        ]
+      ],
+      "method": "Simmer the chicken in 500 ml water with a stock cube, ginger, garlic and the soy sauce for 12 minutes, then slice. Cook the noodles and bok choy in the broth for 4 minutes and top with the chicken and spring onion."
+    },
+    {
+      "id": "thai_chicken_larb_rice",
+      "name": "Thai chicken larb with rice",
+      "slot": "first",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_breast",
+          170
+        ],
+        [
+          "jasmine",
+          45
+        ],
+        [
+          "cucumber",
+          60
+        ],
+        [
+          "lettuce",
+          40
+        ],
+        [
+          "onion",
+          20
+        ],
+        [
+          "canola_oil",
+          5
+        ]
+      ],
+      "method": "Finely chop or mince the chicken and stir-fry in the oil until cooked. Off the heat, mix in fish sauce, lime juice, chilli flakes, red onion, mint and coriander. Serve with rice, cucumber and lettuce cups."
+    },
+    {
+      "id": "chicken_corn_noodle_soup",
+      "name": "Chinese chicken and corn soup with noodles",
+      "slot": "first",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_breast",
+          150
+        ],
+        [
+          "corn_frozen",
+          100
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "egg_noodles",
+          40
+        ],
+        [
+          "spring_onion",
+          20
+        ]
+      ],
+      "method": "Simmer the chicken and corn in 500 ml water with a stock cube, ginger and white pepper for 10 minutes, then shred the chicken. Add the noodles for 4 minutes, then drizzle in the beaten egg while stirring to make ribbons. Top with spring onion."
+    },
+    {
+      "id": "greek_chicken_pita",
+      "name": "Greek chicken pita with tzatziki",
+      "slot": "first",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_breast",
+          150
+        ],
+        [
+          "pita_wholemeal",
+          64
+        ],
+        [
+          "greek_yog",
+          60
+        ],
+        [
+          "cucumber",
+          50
+        ],
+        [
+          "tomato",
+          50
+        ],
+        [
+          "lettuce",
+          20
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Toss the sliced chicken with oregano, lemon, garlic and the oil and pan-fry or air-fry until cooked. Mix the yoghurt with grated cucumber, garlic and dill. Fill the pita with chicken, tzatziki, tomato and lettuce."
+    },
+    {
+      "id": "tuna_nicoise",
+      "name": "Tuna niçoise salad",
+      "slot": "first",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "tuna_can",
+          120
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "potato",
+          150
+        ],
+        [
+          "green_beans",
+          80
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Boil the potatoes, adding the beans for the last 3 minutes, and boil the egg. Arrange with the tuna and tomato and dress with the oil, lemon juice and a little mustard."
+    },
+    {
+      "id": "shakshuka_feta",
+      "name": "Shakshuka with feta",
+      "slot": "first",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "vegetarian",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "egg_white",
+          110
+        ],
+        [
+          "egg",
+          156
+        ],
+        [
+          "tomato_tin",
+          200
+        ],
+        [
+          "capsicum",
+          80
+        ],
+        [
+          "onion",
+          50
+        ],
+        [
+          "feta_light",
+          25
+        ],
+        [
+          "wholegrain_bread",
+          30
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Soften onion and capsicum in the oil with garlic, cumin and paprika, then add the tomatoes and simmer 10 minutes. Stir in the egg whites, make wells, crack in the eggs, cover and cook until set. Crumble over the feta and serve with toast."
+    },
+    {
+      "id": "chicken_tabbouleh",
+      "name": "Chicken tabbouleh",
+      "slot": "first",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_breast",
+          150
+        ],
+        [
+          "bulgur",
+          50
+        ],
+        [
+          "tomato",
+          80
+        ],
+        [
+          "cucumber",
+          60
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Soak the bulgur in boiling water for 15 minutes and drain. Mix with lots of chopped parsley and mint, tomato, cucumber, lemon juice and the oil. Top with grilled sliced chicken."
+    },
+    {
+      "id": "cilbir_turkish_eggs",
+      "name": "Çılbır (Turkish eggs) with toast",
+      "slot": "first",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "vegetarian",
+        "under-15-min"
+      ],
+      "prep_min": 12,
+      "items": [
+        [
+          "greek_yog",
+          200
+        ],
+        [
+          "egg",
+          104
+        ],
+        [
+          "wholegrain_bread",
+          70
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Stir garlic and a pinch of salt into the yoghurt and spread on a plate. Poach the eggs and set them on top, then warm the oil with chilli flakes and paprika and drizzle over. Serve with toast."
+    },
+    {
+      "id": "chicken_fattoush",
+      "name": "Chicken fattoush with toasted pita",
+      "slot": "first",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "air-fryer",
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_thigh",
+          180
+        ],
+        [
+          "pita_wholemeal",
+          32
+        ],
+        [
+          "cucumber",
+          60
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "lettuce",
+          50
+        ],
+        [
+          "hummus",
+          30
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Rub the chicken with shawarma spices and air-fry at 200°C for 15 minutes, then slice. Toast the pita until crisp and break up. Toss the salad with lemon juice, sumac and the oil, then top with chicken, pita and hummus."
+    },
+    {
+      "id": "lemon_fish_couscous",
+      "name": "Lemon-herb fish with couscous salad",
+      "slot": "first",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 15,
+      "items": [
+        [
+          "white_fish",
+          180
+        ],
+        [
+          "couscous",
+          50
+        ],
+        [
+          "cucumber",
+          50
+        ],
+        [
+          "tomato",
+          50
+        ],
+        [
+          "spinach",
+          30
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Pour boiling water over the couscous, cover for 5 minutes, then fluff and mix with cucumber, tomato, spinach, lemon zest, herbs and half the oil. Pan-fry the fish in the remaining oil for 3 minutes a side and serve on top."
+    },
+    {
+      "id": "spinach_feta_egg_wrap",
+      "name": "Spinach and feta egg wrap",
+      "slot": "first",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "vegetarian",
+        "under-15-min"
+      ],
+      "prep_min": 10,
+      "items": [
+        [
+          "egg_white",
+          180
+        ],
+        [
+          "egg",
+          104
+        ],
+        [
+          "spinach",
+          60
+        ],
+        [
+          "feta_light",
+          25
+        ],
+        [
+          "wholemeal_wrap",
+          43
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Wilt the spinach in the oil, add the beaten eggs and egg whites and scramble softly. Fold through the crumbled feta, then roll in the wrap and toast briefly."
+    },
+    {
+      "id": "chicken_bean_quesadilla",
+      "name": "Chicken and black bean quesadilla",
+      "slot": "first",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "batch",
+        "under-15-min"
+      ],
+      "prep_min": 12,
+      "items": [
+        [
+          "chicken_breast",
+          130
+        ],
+        [
+          "black_beans_can",
+          60
+        ],
+        [
+          "mozzarella_light",
+          30
+        ],
+        [
+          "wholemeal_wrap",
+          43
+        ],
+        [
+          "salsa",
+          40
+        ]
+      ],
+      "method": "Use poached chicken from your batch cook (weight is raw), shredded with cumin and smoked paprika. Spread beans, chicken and cheese over half the wrap, fold and toast in a dry pan until crisp. Serve with salsa."
+    },
+    {
+      "id": "huevos_rancheros",
+      "name": "Huevos rancheros",
+      "slot": "first",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "vegetarian",
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "egg_white",
+          150
+        ],
+        [
+          "egg",
+          104
+        ],
+        [
+          "black_beans_can",
+          80
+        ],
+        [
+          "corn_tortilla",
+          50
+        ],
+        [
+          "salsa",
+          80
+        ],
+        [
+          "avocado",
+          30
+        ]
+      ],
+      "method": "Simmer the salsa and beans with cumin in a small pan. Make wells, add the eggs and pour in the egg whites, cover and cook until set. Serve over warmed tortillas with sliced avocado."
+    },
+    {
+      "id": "tuna_tostadas",
+      "name": "Tuna tostadas with avocado",
+      "slot": "first",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "air-fryer",
+        "under-15-min"
+      ],
+      "prep_min": 12,
+      "items": [
+        [
+          "tuna_can",
+          150
+        ],
+        [
+          "corn_tortilla",
+          75
+        ],
+        [
+          "avocado",
+          40
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "onion",
+          20
+        ],
+        [
+          "cucumber",
+          40
+        ]
+      ],
+      "method": "Air-fry the tortillas at 180°C for about 5 minutes until crisp. Mix the tuna with lime juice, chilli, red onion, tomato, cucumber and coriander. Pile onto the tostadas and top with avocado."
+    },
+    {
+      "id": "breakfast_burrito",
+      "name": "Egg and bean breakfast burrito",
+      "slot": "first",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "vegetarian",
+        "under-15-min"
+      ],
+      "prep_min": 12,
+      "items": [
+        [
+          "egg_white",
+          130
+        ],
+        [
+          "egg",
+          104
+        ],
+        [
+          "black_beans_can",
+          50
+        ],
+        [
+          "capsicum",
+          50
+        ],
+        [
+          "mozzarella_light",
+          20
+        ],
+        [
+          "wholemeal_wrap",
+          43
+        ],
+        [
+          "salsa",
+          30
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Soften the capsicum in the oil, add the eggs and egg whites and scramble. Warm the beans with cumin. Fill the wrap with eggs, beans, cheese and salsa, roll up and toast seam-side down."
+    },
+    {
+      "id": "chicken_tinga_tacos",
+      "name": "Chicken tinga tacos",
+      "slot": "first",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "chicken_breast",
+          160
+        ],
+        [
+          "tomato_tin",
+          80
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "corn_tortilla",
+          75
+        ],
+        [
+          "cabbage",
+          40
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Poach the chicken and shred it. Soften onion in the oil, add the tomatoes, chipotle chilli powder, oregano and garlic, simmer 5 minutes, then stir through the chicken (the filling freezes well). Serve in warmed tortillas with shredded cabbage and lime."
+    },
+    {
+      "id": "berry_overnight_oats",
+      "name": "Greek yoghurt overnight oats with berries",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "no-cook",
+        "batch"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "greek_yog",
+          150
+        ],
+        [
+          "whey",
+          36
+        ],
+        [
+          "oats",
+          50
+        ],
+        [
+          "berries_frozen",
+          80
+        ],
+        [
+          "almond_milk",
+          100
+        ]
+      ],
+      "method": "Mix the oats, yoghurt, whey and almond milk in a jar and top with frozen berries. Refrigerate overnight; make three or four jars at once."
+    },
+    {
+      "id": "eggs_avo_cottage_toast",
+      "name": "Poached eggs, avocado and cottage cheese on toast",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "under-15-min"
+      ],
+      "prep_min": 12,
+      "items": [
+        [
+          "cottage_cheese",
+          180
+        ],
+        [
+          "egg",
+          104
+        ],
+        [
+          "avocado",
+          35
+        ],
+        [
+          "wholegrain_bread",
+          70
+        ],
+        [
+          "tomato",
+          60
+        ]
+      ],
+      "method": "Toast the bread and spread with smashed avocado, then top with cottage cheese and sliced tomato. Poach the eggs for 3 minutes and set on top with pepper and chilli flakes."
+    },
+    {
+      "id": "chicken_avocado_wrap",
+      "name": "Chicken, avocado and salad wraps",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "under-15-min"
+      ],
+      "prep_min": 10,
+      "items": [
+        [
+          "chicken_breast",
+          150
+        ],
+        [
+          "wholemeal_wrap",
+          86
+        ],
+        [
+          "lettuce",
+          40
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "avocado",
+          30
+        ]
+      ],
+      "method": "Use grilled or poached chicken from your batch cook (weight is raw). Slice and fill the wraps with lettuce, tomato, smashed avocado, pepper and a squeeze of lemon."
+    },
+    {
+      "id": "tuna_pasta_salad",
+      "name": "Tuna, corn and capsicum pasta salad",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "tuna_can",
+          130
+        ],
+        [
+          "pasta",
+          60
+        ],
+        [
+          "corn_frozen",
+          50
+        ],
+        [
+          "capsicum",
+          50
+        ],
+        [
+          "greek_yog",
+          50
+        ]
+      ],
+      "method": "Cook the pasta, adding the corn for the last 2 minutes, then drain and cool. Mix with the tuna, diced capsicum, yoghurt, lemon juice, pepper and parsley. Keeps 3 days in the fridge."
+    },
+    {
+      "id": "protein_pancakes",
+      "name": "Banana oat protein pancakes",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "egg_white",
+          100
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "oats",
+          50
+        ],
+        [
+          "whey",
+          18
+        ],
+        [
+          "banana",
+          60
+        ],
+        [
+          "greek_yog",
+          80
+        ],
+        [
+          "canola_oil",
+          5
+        ]
+      ],
+      "method": "Blend the oats, egg, egg whites, whey and half the banana into a batter. Cook small pancakes in the oil over medium heat, about 2 minutes a side. Serve with the yoghurt and remaining banana."
+    },
+    {
+      "id": "chicken_pumpkin_feta_salad",
+      "name": "Chicken, roast pumpkin and feta salad",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "air-fryer",
+        "batch"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "chicken_breast",
+          150
+        ],
+        [
+          "pumpkin",
+          150
+        ],
+        [
+          "quinoa",
+          30
+        ],
+        [
+          "spinach",
+          60
+        ],
+        [
+          "feta_light",
+          20
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Cube the pumpkin, toss with half the oil and air-fry at 200°C for 18 minutes, and grill the chicken. Cook the quinoa. Toss everything with spinach, crumbled feta, lemon juice and the remaining oil."
+    },
+    {
+      "id": "chicken_veg_soup",
+      "name": "Chicken and vegetable soup with toast",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 40,
+      "items": [
+        [
+          "chicken_breast",
+          160
+        ],
+        [
+          "potato",
+          100
+        ],
+        [
+          "carrot",
+          60
+        ],
+        [
+          "onion",
+          50
+        ],
+        [
+          "peas_frozen",
+          40
+        ],
+        [
+          "wholegrain_bread",
+          40
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Soften the onion and carrot in the oil, then add diced potato, the chicken and 500 ml water with a stock cube, thyme and pepper. Simmer 25 minutes, shred the chicken back in and add the peas for the last 3 minutes. Serve with toast."
+    },
+    {
+      "id": "tuna_melt_muffins",
+      "name": "Tuna melt English muffins",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 10,
+      "items": [
+        [
+          "tuna_can",
+          120
+        ],
+        [
+          "english_muffin",
+          134
+        ],
+        [
+          "mozzarella_light",
+          30
+        ],
+        [
+          "tomato",
+          50
+        ],
+        [
+          "greek_yog",
+          30
+        ]
+      ],
+      "method": "Mix the tuna with yoghurt, lemon and pepper. Split and toast the muffins, top with tuna, sliced tomato and cheese, then grill or air-fry until melted."
+    },
+    {
+      "id": "mushroom_feta_omelette",
+      "name": "Mushroom, spinach and feta omelette with toast",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "under-15-min"
+      ],
+      "prep_min": 12,
+      "items": [
+        [
+          "egg_white",
+          150
+        ],
+        [
+          "egg",
+          104
+        ],
+        [
+          "mushroom",
+          80
+        ],
+        [
+          "spinach",
+          50
+        ],
+        [
+          "feta_light",
+          25
+        ],
+        [
+          "wholegrain_bread",
+          45
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Sauté the mushrooms and spinach in the oil, then pour in the whisked eggs and egg whites. Cook until almost set, scatter with feta, fold and serve with toast."
+    },
+    {
+      "id": "chicken_quinoa_roast_veg",
+      "name": "Chicken, quinoa and roast vegetable salad",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "air-fryer",
+        "batch"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "chicken_breast",
+          150
+        ],
+        [
+          "quinoa",
+          45
+        ],
+        [
+          "zucchini",
+          80
+        ],
+        [
+          "capsicum",
+          60
+        ],
+        [
+          "rocket",
+          30
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Air-fry chopped zucchini and capsicum with half the oil at 200°C for 12 minutes, and grill the chicken. Cook the quinoa. Toss with rocket, lemon juice, the remaining oil and the sliced chicken."
+    },
+    {
+      "id": "steak_egg_potato_hash",
+      "name": "Steak, egg and potato hash",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "beef_rump",
+          150
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "potato",
+          150
+        ],
+        [
+          "spinach",
+          60
+        ],
+        [
+          "olive_oil",
+          6
+        ]
+      ],
+      "method": "Microwave the diced potato for 4 minutes, then crisp it in the oil with paprika. Sear the steak, rest and slice, and fry the egg in the same pan. Serve on wilted spinach."
+    },
+    {
+      "id": "air_fryer_chicken_tenders_wedges",
+      "name": "Air-fryer chicken tenders with sweet potato wedges",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "air-fryer",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_breast",
+          160
+        ],
+        [
+          "breadcrumbs",
+          20
+        ],
+        [
+          "egg_white",
+          30
+        ],
+        [
+          "sweet_potato",
+          150
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Cut the sweet potato into wedges, toss with half the oil and air-fry at 200°C for 10 minutes. Dip chicken strips in egg white then breadcrumbs with paprika, brush with the remaining oil and add to the basket for 10–12 minutes more."
+    },
+    {
+      "id": "savoury_mince_toast",
+      "name": "Savoury mince on toast",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "beef_mince_lean",
+          150
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "carrot",
+          40
+        ],
+        [
+          "tomato_tin",
+          80
+        ],
+        [
+          "peas_frozen",
+          40
+        ],
+        [
+          "wholegrain_bread",
+          70
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Brown the mince in the oil with onion and grated carrot, then add the tomatoes, peas, a dash of Worcestershire sauce and pepper. Simmer 15 minutes until thick and serve on toast."
+    },
+    {
+      "id": "tuna_corn_jacket_potato",
+      "name": "Tuna and corn jacket potato",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 12,
+      "items": [
+        [
+          "tuna_can",
+          130
+        ],
+        [
+          "potato",
+          280
+        ],
+        [
+          "corn_frozen",
+          40
+        ],
+        [
+          "greek_yog",
+          60
+        ]
+      ],
+      "method": "Prick the potato and microwave for 7–9 minutes until tender. Mix the tuna, corn, yoghurt, chives and pepper, then split the potato and pile the filling in."
+    },
+    {
+      "id": "salmon_potato_patties",
+      "name": "Salmon and potato patties with salad",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "air-fryer",
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "salmon_can",
+          150
+        ],
+        [
+          "potato",
+          100
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "breadcrumbs",
+          15
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "cucumber",
+          60
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Microwave and mash the potato, then mix with the salmon, egg, dill, lemon zest and pepper. Shape into patties, coat in breadcrumbs, brush with the oil and air-fry at 190°C for 12 minutes. Serve with tomato and cucumber salad."
+    },
+    {
+      "id": "protein_french_toast",
+      "name": "Protein French toast with berries",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "under-15-min"
+      ],
+      "prep_min": 12,
+      "items": [
+        [
+          "egg_white",
+          130
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "wholegrain_bread",
+          80
+        ],
+        [
+          "skim_milk",
+          50
+        ],
+        [
+          "greek_yog",
+          100
+        ],
+        [
+          "berries_frozen",
+          60
+        ],
+        [
+          "canola_oil",
+          5
+        ]
+      ],
+      "method": "Whisk the egg, egg whites, milk and cinnamon and soak the bread. Fry in the oil until golden on both sides. Top with the yoghurt and warmed berries."
+    },
+    {
+      "id": "chicken_waldorf_sandwich",
+      "name": "Chicken Waldorf open sandwich",
+      "slot": "first",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "under-15-min"
+      ],
+      "prep_min": 10,
+      "items": [
+        [
+          "chicken_breast",
+          150
+        ],
+        [
+          "apple",
+          80
+        ],
+        [
+          "lettuce",
+          60
+        ],
+        [
+          "greek_yog",
+          50
+        ],
+        [
+          "almonds",
+          10
+        ],
+        [
+          "wholegrain_bread",
+          60
+        ]
+      ],
+      "method": "Use poached chicken from your batch cook (weight is raw). Dice and mix with apple, yoghurt, lemon, chopped almonds and pepper, then serve on the bread with lettuce."
+    },
+    {
+      "id": "sl_chicken_curry",
+      "name": "Sri Lankan chicken curry with rice",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 45,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "onion",
+          60
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "light_coconut_milk",
+          60
+        ],
+        [
+          "curry_powder",
+          4
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "coconut_oil",
+          7
+        ]
+      ],
+      "method": "Fry onion, garlic, ginger, curry leaves, pandan and cinnamon in the oil, then add the diced thigh, roasted curry powder and chilli powder and brown well. Add tomato and a splash of water, simmer 25 minutes, then stir in the coconut milk. Serve with the rice."
+    },
+    {
+      "id": "sl_chicken_kottu",
+      "name": "Chicken kottu roti",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_breast",
+          160
+        ],
+        [
+          "wholemeal_wrap",
+          86
+        ],
+        [
+          "cabbage",
+          100
+        ],
+        [
+          "carrot",
+          50
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "coconut_oil",
+          6
+        ]
+      ],
+      "method": "Cook the diced chicken with curry powder, chilli and curry leaves, then set aside. Stir-fry onion, carrot and cabbage in the oil, scramble in the egg, then add the chicken and the wraps cut into thin strips. Chop and toss together with a little curry gravy or water until hot."
+    },
+    {
+      "id": "sl_devilled_chicken",
+      "name": "Devilled chicken with rice",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "onion",
+          80
+        ],
+        [
+          "capsicum",
+          100
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "tomato_paste",
+          15
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "coconut_oil",
+          8
+        ]
+      ],
+      "method": "Season the chicken pieces with chilli powder, pepper and salt and sear in the oil. Add chunky onion, capsicum, tomato, garlic and chilli flakes, then stir in the tomato paste with a splash of water and a dash of soy until glossy. Serve with the rice."
+    },
+    {
+      "id": "sl_devilled_beef",
+      "name": "Devilled beef with rice",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "beef_rump",
+          200
+        ],
+        [
+          "onion",
+          80
+        ],
+        [
+          "capsicum",
+          100
+        ],
+        [
+          "tomato_paste",
+          15
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "coconut_oil",
+          8
+        ]
+      ],
+      "method": "Slice the rump thinly, season with pepper and chilli powder and sear quickly in hot oil, then remove. Fry onion, capsicum, garlic, ginger and chilli flakes, add tomato paste, a dash of soy and a splash of water, then return the beef to coat. Serve with the rice."
+    },
+    {
+      "id": "sl_devilled_prawns",
+      "name": "Devilled prawns with rice",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "prawns",
+          250
+        ],
+        [
+          "onion",
+          80
+        ],
+        [
+          "capsicum",
+          100
+        ],
+        [
+          "tomato_paste",
+          15
+        ],
+        [
+          "basmati",
+          65
+        ],
+        [
+          "coconut_oil",
+          8
+        ]
+      ],
+      "method": "Toss the prawns in chilli powder and turmeric and sear in the oil until just pink, then remove. Fry onion, capsicum, garlic and chilli flakes, add tomato paste, a dash of soy and a splash of water, then return the prawns. Serve with the rice."
+    },
+    {
+      "id": "sl_fish_ambul_thiyal",
+      "name": "Fish ambul thiyal with rice and beans",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 40,
+      "items": [
+        [
+          "white_fish",
+          250
+        ],
+        [
+          "basmati",
+          65
+        ],
+        [
+          "green_beans",
+          100
+        ],
+        [
+          "curry_powder",
+          3
+        ],
+        [
+          "coconut_oil",
+          7
+        ]
+      ],
+      "method": "Coat chunks of firm white fish in a paste of goraka or tamarind, black pepper, chilli, garlic, ginger and curry powder. Cook in the oil with curry leaves and a little water on low heat until the sauce is thick and dry. Serve with rice and steamed or tempered green beans."
+    },
+    {
+      "id": "sl_fish_kirata",
+      "name": "Fish kirata (mild coconut fish curry)",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "white_fish",
+          230
+        ],
+        [
+          "light_coconut_milk",
+          80
+        ],
+        [
+          "onion",
+          50
+        ],
+        [
+          "tomato",
+          50
+        ],
+        [
+          "curry_powder",
+          3
+        ],
+        [
+          "basmati",
+          65
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Fry onion, green chilli, curry leaves and garlic in the oil, then add tomato, turmeric and curry powder. Pour in the coconut milk with a little water and gently poach the fish pieces for 8–10 minutes. Finish with lime juice and serve with rice."
+    },
+    {
+      "id": "sl_tin_fish_curry",
+      "name": "Tinned salmon and potato curry",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "salmon_can",
+          200
+        ],
+        [
+          "potato",
+          100
+        ],
+        [
+          "onion",
+          60
+        ],
+        [
+          "tomato",
+          80
+        ],
+        [
+          "curry_powder",
+          4
+        ],
+        [
+          "basmati",
+          50
+        ],
+        [
+          "coconut_oil",
+          6
+        ]
+      ],
+      "method": "Fry onion, garlic, curry leaves and chilli in the oil, add the curry powder, tomato and diced potato with a cup of water and simmer until the potato is tender. Fold in the drained salmon in chunks and heat through with a squeeze of lime. Serve with the rice."
+    },
+    {
+      "id": "sl_black_pepper_beef_curry",
+      "name": "Black pepper beef curry",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 90,
+      "items": [
+        [
+          "beef_diced",
+          220
+        ],
+        [
+          "onion",
+          60
+        ],
+        [
+          "light_coconut_milk",
+          40
+        ],
+        [
+          "curry_powder",
+          4
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "coconut_oil",
+          6
+        ]
+      ],
+      "method": "Brown the beef in the oil with onion, garlic, ginger, curry leaves and cinnamon. Add the roasted curry powder, plenty of crushed black pepper and water, then simmer covered for 75 minutes until tender. Stir in the coconut milk and reduce, then serve with rice."
+    },
+    {
+      "id": "sl_seafood_curry",
+      "name": "Sri Lankan prawn and squid curry",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "prawns",
+          130
+        ],
+        [
+          "squid",
+          130
+        ],
+        [
+          "light_coconut_milk",
+          70
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "tomato",
+          50
+        ],
+        [
+          "curry_powder",
+          3
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Fry onion, garlic, curry leaves and chilli in the oil, add curry powder, turmeric and tomato and cook down. Add the coconut milk and squid rings and simmer 5 minutes, then add the prawns for 3 minutes more. Finish with lime and serve with rice."
+    },
+    {
+      "id": "sl_beef_kottu",
+      "name": "Beef kottu roti",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "beef_mince_lean",
+          150
+        ],
+        [
+          "wholemeal_wrap",
+          86
+        ],
+        [
+          "cabbage",
+          100
+        ],
+        [
+          "carrot",
+          50
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Brown the mince with curry powder, chilli and curry leaves. Stir-fry onion, carrot and cabbage in the oil, scramble in the egg, then add the mince and wraps cut into thin strips. Chop and toss together with a splash of water until hot."
+    },
+    {
+      "id": "sl_egg_kottu",
+      "name": "Egg kottu roti",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "vegetarian",
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "egg_white",
+          210
+        ],
+        [
+          "egg",
+          104
+        ],
+        [
+          "wholemeal_wrap",
+          86
+        ],
+        [
+          "cabbage",
+          120
+        ],
+        [
+          "carrot",
+          50
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Stir-fry onion, carrot, cabbage, green chilli and curry leaves in the oil with curry powder. Push to the side and scramble the eggs and egg whites, then add the wraps cut into thin strips. Chop and toss together with a splash of water until hot."
+    },
+    {
+      "id": "sl_kalu_pol_chicken",
+      "name": "Kalu pol (roasted coconut) chicken curry",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 45,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "coconut_desiccated",
+          10
+        ],
+        [
+          "onion",
+          50
+        ],
+        [
+          "green_beans",
+          60
+        ],
+        [
+          "curry_powder",
+          4
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Dry-roast the coconut with a few grains of rice until dark brown, then grind with a little water to a paste. Fry onion, garlic, curry leaves and the chicken in the oil with curry powder, add water and simmer 20 minutes, then stir in the coconut paste and beans for 8 minutes. Serve with rice."
+    },
+    {
+      "id": "sl_kaha_bath_chicken",
+      "name": "Yellow rice (kaha bath) with roast chicken",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch"
+      ],
+      "prep_min": 45,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "basmati",
+          60
+        ],
+        [
+          "light_coconut_milk",
+          30
+        ],
+        [
+          "onion",
+          30
+        ],
+        [
+          "curry_powder",
+          3
+        ],
+        [
+          "coconut_oil",
+          6
+        ]
+      ],
+      "method": "Rub the chicken with curry powder, chilli, garlic and lime and roast at 200°C for 20 minutes. Meanwhile fry onion, curry leaves, cloves, cardamom and cinnamon in the oil, add the rice and turmeric, then cook with the coconut milk and water in the rice cooker. Slice the chicken over the yellow rice."
+    },
+    {
+      "id": "sl_chicken_potato_white_curry",
+      "name": "Chicken and potato white curry",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 40,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "potato",
+          120
+        ],
+        [
+          "light_coconut_milk",
+          80
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "basmati",
+          30
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Soften onion, garlic, green chilli, curry leaves and fenugreek seeds in the oil with turmeric. Add the chicken, potato and water and simmer 20 minutes, then pour in the coconut milk and simmer gently until creamy. Serve with a small portion of rice."
+    },
+    {
+      "id": "sl_pepper_chicken_cabbage_mallung",
+      "name": "Pepper chicken with cabbage mallung and rice",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "cabbage",
+          150
+        ],
+        [
+          "coconut_desiccated",
+          10
+        ],
+        [
+          "onion",
+          30
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "coconut_oil",
+          7
+        ]
+      ],
+      "method": "Toss the chicken pieces with crushed black pepper, turmeric and salt and fry in most of the oil until cooked. In the remaining oil, toss finely shredded cabbage with onion, green chilli, curry leaves, turmeric and the coconut for 4 minutes. Serve both with rice."
+    },
+    {
+      "id": "sl_thel_dala_chicken",
+      "name": "Thel dala chicken with tempered potatoes",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "potato",
+          230
+        ],
+        [
+          "onion",
+          60
+        ],
+        [
+          "capsicum",
+          60
+        ],
+        [
+          "coconut_oil",
+          8
+        ]
+      ],
+      "method": "Parboil cubed potato in the microwave. Fry the chicken pieces in the oil, then add onion, capsicum, curry leaves, chilli flakes, mustard seeds and turmeric and toss with the potatoes until golden. Finish with lime and salt."
+    },
+    {
+      "id": "sl_devilled_squid",
+      "name": "Devilled squid with rice",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "squid",
+          280
+        ],
+        [
+          "onion",
+          80
+        ],
+        [
+          "capsicum",
+          100
+        ],
+        [
+          "tomato_paste",
+          15
+        ],
+        [
+          "basmati",
+          50
+        ],
+        [
+          "coconut_oil",
+          7
+        ]
+      ],
+      "method": "Score and slice the squid, toss with chilli powder and pepper and sear in very hot oil for 2 minutes, then remove. Fry onion, capsicum, garlic and chilli flakes, add tomato paste, a dash of soy and water, then return the squid briefly. Serve with rice."
+    },
+    {
+      "id": "sl_egg_curry_spinach_dhal",
+      "name": "Egg curry with spinach dhal",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "vegetarian",
+        "batch"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "egg_white",
+          100
+        ],
+        [
+          "egg",
+          208
+        ],
+        [
+          "red_lentils",
+          50
+        ],
+        [
+          "light_coconut_milk",
+          40
+        ],
+        [
+          "spinach",
+          100
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Simmer the lentils with turmeric, onion, garlic and water until soft, then stir in the coconut milk and spinach. Hard-boil the eggs, halve them and simmer in a tempered curry sauce of curry leaves, chilli and curry powder fried in the oil, poaching the egg whites in the sauce as ribbons. Serve the egg curry over the dhal."
+    },
+    {
+      "id": "sl_roasted_curry_chicken_dhal",
+      "name": "Roasted curry chicken with parippu and rice",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 40,
+      "items": [
+        [
+          "chicken_breast",
+          180
+        ],
+        [
+          "red_lentils",
+          40
+        ],
+        [
+          "basmati",
+          40
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "light_coconut_milk",
+          30
+        ],
+        [
+          "curry_powder",
+          4
+        ],
+        [
+          "coconut_oil",
+          7
+        ]
+      ],
+      "method": "Rub the chicken with roasted curry powder and chilli and pan-roast in most of the oil. Simmer the lentils with turmeric and water until soft, add the coconut milk, then temper with onion, curry leaves, mustard seeds and dried chilli fried in the remaining oil. Serve with rice."
+    },
+    {
+      "id": "sl_beef_smoore",
+      "name": "Beef smoore (slow-cooked spiced beef)",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 120,
+      "items": [
+        [
+          "beef_diced",
+          220
+        ],
+        [
+          "light_coconut_milk",
+          60
+        ],
+        [
+          "onion",
+          50
+        ],
+        [
+          "curry_powder",
+          4
+        ],
+        [
+          "basmati",
+          50
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Marinate the beef with curry powder, vinegar, garlic, ginger, cinnamon and lemongrass. Brown in the oil with onion, add water and braise covered for 1.5 hours until tender, then stir in the coconut milk and reduce to a thick gravy. Serve with rice."
+    },
+    {
+      "id": "sl_chicken_noodles",
+      "name": "Sri Lankan chicken fried noodles",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_breast",
+          180
+        ],
+        [
+          "egg_noodles",
+          55
+        ],
+        [
+          "cabbage",
+          80
+        ],
+        [
+          "carrot",
+          50
+        ],
+        [
+          "spring_onion",
+          20
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "soy_sauce",
+          10
+        ],
+        [
+          "coconut_oil",
+          7
+        ]
+      ],
+      "method": "Boil and drain the noodles. Stir-fry the chicken in the oil with garlic and chilli flakes, add carrot, cabbage and spring onion, then scramble in the egg. Toss through the noodles with soy sauce and pepper."
+    },
+    {
+      "id": "sl_prawn_pumpkin_curry",
+      "name": "Prawn and pumpkin curry",
+      "slot": "main",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "prawns",
+          230
+        ],
+        [
+          "pumpkin",
+          150
+        ],
+        [
+          "light_coconut_milk",
+          70
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "curry_powder",
+          3
+        ],
+        [
+          "basmati",
+          50
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Fry onion, garlic, curry leaves, mustard seeds and chilli in the oil, add the curry powder and turmeric, then simmer the pumpkin cubes in water until tender. Stir in the coconut milk and prawns and cook 3–4 minutes. Serve with rice."
+    },
+    {
+      "id": "butter_chicken_light",
+      "name": "Lighter butter chicken with rice",
+      "slot": "main",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 35,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "tomato_tin",
+          120
+        ],
+        [
+          "greek_yog",
+          60
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "curry_powder",
+          3
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Marinate the chicken in half the yoghurt with garam masala, chilli and garlic, then sear in the oil. Add onion, ginger, curry powder and tinned tomato and simmer 15 minutes, blending the sauce if you like. Take off the heat, stir in the remaining yoghurt and kasoori methi, and serve with rice."
+    },
+    {
+      "id": "chicken_tikka_kachumber",
+      "name": "Air-fryer chicken tikka with kachumber and rice",
+      "slot": "main",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "air-fryer",
+        "batch"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "greek_yog",
+          50
+        ],
+        [
+          "cucumber",
+          80
+        ],
+        [
+          "tomato",
+          80
+        ],
+        [
+          "onion",
+          30
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Marinate the thigh in yoghurt, tikka spices, garlic, ginger and lemon, then air-fry at 200°C for 16 minutes brushed with the oil. Dice cucumber, tomato and onion with lemon, salt and coriander for the kachumber. Serve with rice."
+    },
+    {
+      "id": "chicken_biryani",
+      "name": "Chicken biryani",
+      "slot": "main",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 60,
+      "items": [
+        [
+          "chicken_thigh",
+          200
+        ],
+        [
+          "basmati",
+          65
+        ],
+        [
+          "greek_yog",
+          40
+        ],
+        [
+          "onion",
+          60
+        ],
+        [
+          "peas_frozen",
+          40
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Marinate the chicken in yoghurt with biryani spices, garlic and ginger. Fry the sliced onion in the oil until deep golden, add the chicken and cook 10 minutes, then layer with the parboiled rice and peas. Cover tightly and steam on low for 20 minutes."
+    },
+    {
+      "id": "keema_matar",
+      "name": "Beef keema matar with rice",
+      "slot": "main",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "beef_mince_lean",
+          200
+        ],
+        [
+          "peas_frozen",
+          80
+        ],
+        [
+          "onion",
+          50
+        ],
+        [
+          "tomato_tin",
+          100
+        ],
+        [
+          "basmati",
+          50
+        ],
+        [
+          "olive_oil",
+          6
+        ]
+      ],
+      "method": "Fry onion, garlic, ginger and green chilli in the oil, then brown the mince with cumin, coriander, turmeric and garam masala. Add the tinned tomato and peas and simmer 15 minutes. Serve with rice."
+    },
+    {
+      "id": "palak_chicken",
+      "name": "Palak chicken with rice",
+      "slot": "main",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 35,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "spinach",
+          150
+        ],
+        [
+          "onion",
+          50
+        ],
+        [
+          "greek_yog",
+          40
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Wilt the spinach and blend with green chilli. Fry onion, garlic, ginger and cumin in the oil, brown the chicken with garam masala, then add the spinach puree and simmer 10 minutes. Stir in the yoghurt off the heat and serve with rice."
+    },
+    {
+      "id": "chicken_chettinad",
+      "name": "Chicken Chettinad with rice",
+      "slot": "main",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 45,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "onion",
+          60
+        ],
+        [
+          "tomato",
+          80
+        ],
+        [
+          "coconut_desiccated",
+          8
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Dry-roast the coconut with black pepper, fennel, cumin, coriander seeds and dried chilli, then grind to a paste. Fry onion and curry leaves in the oil, add the chicken and tomato, then the paste and water, and simmer 25 minutes until thick. Serve with rice."
+    },
+    {
+      "id": "goan_fish_curry",
+      "name": "Goan fish curry with rice",
+      "slot": "main",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "white_fish",
+          230
+        ],
+        [
+          "light_coconut_milk",
+          80
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "curry_powder",
+          3
+        ],
+        [
+          "basmati",
+          60
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Fry onion in the oil, then add a paste of garlic, ginger, Kashmiri chilli, tamarind and curry powder with the tomato. Add the coconut milk and a little water, bring to a simmer and gently poach the fish for 8 minutes. Serve with rice."
+    },
+    {
+      "id": "chicken_jalfrezi",
+      "name": "Chicken jalfrezi with rice",
+      "slot": "main",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "capsicum",
+          120
+        ],
+        [
+          "onion",
+          60
+        ],
+        [
+          "tomato",
+          80
+        ],
+        [
+          "curry_powder",
+          3
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Sear the chicken in the oil with cumin seeds, then add chunky onion and capsicum and stir-fry over high heat. Add garlic, ginger, green chilli, curry powder and chopped tomato and toss until saucy. Serve with rice."
+    },
+    {
+      "id": "beef_madras",
+      "name": "Beef madras with rice",
+      "slot": "main",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 100,
+      "items": [
+        [
+          "beef_diced",
+          220
+        ],
+        [
+          "tomato_tin",
+          100
+        ],
+        [
+          "onion",
+          50
+        ],
+        [
+          "curry_powder",
+          4
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "olive_oil",
+          6
+        ]
+      ],
+      "method": "Brown the beef in the oil, then add onion, garlic, ginger, curry leaves and curry powder with extra chilli. Add the tomato and water and simmer covered for 1.5 hours until tender, finishing with tamarind. Serve with rice."
+    },
+    {
+      "id": "chicken_korma_light",
+      "name": "Lighter chicken korma with rice",
+      "slot": "main",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 35,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "greek_yog",
+          80
+        ],
+        [
+          "almonds",
+          10
+        ],
+        [
+          "onion",
+          60
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "olive_oil",
+          6
+        ]
+      ],
+      "method": "Blend the almonds with the onion, garlic and ginger to a paste. Fry the paste in the oil with cardamom, cinnamon and garam masala, add the chicken and a little water and simmer 15 minutes. Stir in the yoghurt off the heat and serve with rice."
+    },
+    {
+      "id": "beef_vindaloo",
+      "name": "Beef vindaloo with potato",
+      "slot": "main",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 110,
+      "items": [
+        [
+          "beef_diced",
+          220
+        ],
+        [
+          "potato",
+          100
+        ],
+        [
+          "onion",
+          60
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "basmati",
+          40
+        ],
+        [
+          "olive_oil",
+          6
+        ]
+      ],
+      "method": "Marinate the beef overnight in vinegar with garlic, ginger, Kashmiri chilli, cumin, cinnamon and cloves. Fry onion in the oil, add the beef and marinade with tomato and water and simmer 75 minutes, adding the potato for the last 25. Serve with rice."
+    },
+    {
+      "id": "chicken_karahi_roti",
+      "name": "Chicken karahi with roti",
+      "slot": "main",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "tomato",
+          200
+        ],
+        [
+          "onion",
+          30
+        ],
+        [
+          "greek_yog",
+          30
+        ],
+        [
+          "wholemeal_wrap",
+          43
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Sear the chicken in the oil with garlic and ginger, then add chopped tomato, onion, green chilli, cumin and crushed coriander and cook over high heat until the tomatoes collapse. Stir in the yoghurt and plenty of fresh ginger. Serve with a warmed wrap as roti."
+    },
+    {
+      "id": "chicken_teriyaki_bowl",
+      "name": "Chicken teriyaki rice bowl",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "jasmine",
+          60
+        ],
+        [
+          "broccoli",
+          120
+        ],
+        [
+          "soy_sauce",
+          15
+        ],
+        [
+          "honey",
+          8
+        ],
+        [
+          "canola_oil",
+          5
+        ]
+      ],
+      "method": "Pan-fry the thigh in the oil until golden and cooked through. Add soy sauce, honey, grated ginger and a splash of mirin or water and reduce to a glaze. Slice and serve over rice with steamed broccoli."
+    },
+    {
+      "id": "beef_broccoli",
+      "name": "Beef and broccoli stir-fry",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "beef_rump",
+          200
+        ],
+        [
+          "broccoli",
+          150
+        ],
+        [
+          "oyster_sauce",
+          20
+        ],
+        [
+          "soy_sauce",
+          10
+        ],
+        [
+          "jasmine",
+          55
+        ],
+        [
+          "canola_oil",
+          7
+        ]
+      ],
+      "method": "Slice the beef thinly and toss with a pinch of bicarb and cornflour. Sear in the hot oil, remove, then stir-fry the broccoli with garlic and a splash of water. Return the beef with oyster and soy sauce and serve with rice."
+    },
+    {
+      "id": "pad_kra_pao",
+      "name": "Thai basil chicken (pad kra pao)",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 15,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "green_beans",
+          80
+        ],
+        [
+          "capsicum",
+          60
+        ],
+        [
+          "oyster_sauce",
+          15
+        ],
+        [
+          "soy_sauce",
+          10
+        ],
+        [
+          "jasmine",
+          55
+        ],
+        [
+          "canola_oil",
+          7
+        ]
+      ],
+      "method": "Fry pounded garlic and bird's eye chilli in the oil, add finely chopped chicken and stir-fry until cooked. Add beans, capsicum, oyster sauce, soy, fish sauce and a pinch of sugar, then toss through a big handful of Thai basil. Serve with rice."
+    },
+    {
+      "id": "thai_green_curry_chicken",
+      "name": "Thai green chicken curry",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "light_coconut_milk",
+          100
+        ],
+        [
+          "zucchini",
+          80
+        ],
+        [
+          "capsicum",
+          60
+        ],
+        [
+          "jasmine",
+          55
+        ],
+        [
+          "canola_oil",
+          5
+        ]
+      ],
+      "method": "Blend green chilli, lemongrass, garlic, ginger, coriander and lime zest into a quick paste and fry it in the oil. Add the coconut milk and chicken and simmer 8 minutes, then add zucchini and capsicum with fish sauce and lime. Serve with rice."
+    },
+    {
+      "id": "prawn_pad_thai",
+      "name": "Prawn pad Thai",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "prawns",
+          180
+        ],
+        [
+          "rice_noodles",
+          60
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "carrot",
+          40
+        ],
+        [
+          "spring_onion",
+          20
+        ],
+        [
+          "peanuts",
+          10
+        ],
+        [
+          "honey",
+          5
+        ],
+        [
+          "canola_oil",
+          7
+        ]
+      ],
+      "method": "Soak the noodles. Stir-fry garlic and the prawns in the oil, push aside and scramble the egg, then add noodles, carrot and a sauce of tamarind, fish sauce and honey. Toss with spring onion and bean sprouts if you have them and top with crushed peanuts and lime."
+    },
+    {
+      "id": "korean_beef_bowl",
+      "name": "Korean beef mince bowl",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "batch",
+        "under-15-min"
+      ],
+      "prep_min": 15,
+      "items": [
+        [
+          "beef_mince_lean",
+          200
+        ],
+        [
+          "jasmine",
+          55
+        ],
+        [
+          "carrot",
+          50
+        ],
+        [
+          "cucumber",
+          60
+        ],
+        [
+          "spring_onion",
+          20
+        ],
+        [
+          "soy_sauce",
+          15
+        ],
+        [
+          "honey",
+          8
+        ],
+        [
+          "sesame_oil",
+          5
+        ]
+      ],
+      "method": "Brown the mince in the sesame oil with garlic, ginger and chilli flakes, then add soy and honey and cook until sticky. Serve over rice with shredded carrot, sliced cucumber and spring onion."
+    },
+    {
+      "id": "chicken_satay_rice",
+      "name": "Air-fryer chicken satay with rice",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "air-fryer",
+        "batch"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "peanut_butter",
+          15
+        ],
+        [
+          "light_coconut_milk",
+          40
+        ],
+        [
+          "jasmine",
+          50
+        ],
+        [
+          "cucumber",
+          60
+        ],
+        [
+          "soy_sauce",
+          10
+        ]
+      ],
+      "method": "Marinate the thigh strips in half the soy with turmeric, garlic and lemongrass, thread on skewers and air-fry at 200°C for 14 minutes. Warm the peanut butter, coconut milk, remaining soy, chilli and lime into a sauce. Serve with rice and cucumber."
+    },
+    {
+      "id": "shaking_beef",
+      "name": "Vietnamese shaking beef with rice",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 15,
+      "items": [
+        [
+          "beef_rump",
+          220
+        ],
+        [
+          "onion",
+          50
+        ],
+        [
+          "lettuce",
+          50
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "jasmine",
+          50
+        ],
+        [
+          "soy_sauce",
+          10
+        ],
+        [
+          "canola_oil",
+          6
+        ]
+      ],
+      "method": "Cube the rump and marinate briefly with soy, garlic, pepper and fish sauce. Sear in very hot oil, shaking the pan, add the onion for the last minute. Serve over lettuce and tomato with rice and a lime-pepper dipping sauce."
+    },
+    {
+      "id": "teriyaki_salmon",
+      "name": "Teriyaki salmon with rice and broccoli",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "salmon",
+          190
+        ],
+        [
+          "jasmine",
+          45
+        ],
+        [
+          "broccoli",
+          120
+        ],
+        [
+          "soy_sauce",
+          15
+        ],
+        [
+          "honey",
+          5
+        ]
+      ],
+      "method": "Mix the soy, honey and grated ginger and brush over the salmon. Bake at 200°C for 12 minutes or air-fry for 9, basting once. Serve with rice and steamed broccoli."
+    },
+    {
+      "id": "prawn_hokkien_noodles",
+      "name": "Prawn Hokkien-style noodles",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 15,
+      "items": [
+        [
+          "prawns",
+          220
+        ],
+        [
+          "egg_noodles",
+          60
+        ],
+        [
+          "stirfry_veg_frozen",
+          150
+        ],
+        [
+          "oyster_sauce",
+          15
+        ],
+        [
+          "soy_sauce",
+          10
+        ],
+        [
+          "canola_oil",
+          7
+        ]
+      ],
+      "method": "Cook and drain the egg noodles. Stir-fry garlic and the prawns in the oil, add the frozen vegetables and cook until hot. Toss in the noodles with oyster sauce, soy and a splash of water."
+    },
+    {
+      "id": "mapo_tofu_beef",
+      "name": "Mapo tofu with beef",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "tofu_firm",
+          200
+        ],
+        [
+          "beef_mince_lean",
+          80
+        ],
+        [
+          "jasmine",
+          50
+        ],
+        [
+          "spring_onion",
+          20
+        ],
+        [
+          "soy_sauce",
+          10
+        ],
+        [
+          "canola_oil",
+          5
+        ]
+      ],
+      "method": "Brown the mince in the oil with garlic, ginger and chilli bean paste. Add soy, Sichuan pepper and a cup of water, then the tofu cubes and simmer 5 minutes, thickening with a little cornflour slurry. Top with spring onion and serve with rice."
+    },
+    {
+      "id": "kung_pao_chicken",
+      "name": "Kung pao chicken",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "capsicum",
+          80
+        ],
+        [
+          "zucchini",
+          60
+        ],
+        [
+          "peanuts",
+          15
+        ],
+        [
+          "soy_sauce",
+          15
+        ],
+        [
+          "honey",
+          5
+        ],
+        [
+          "jasmine",
+          50
+        ],
+        [
+          "canola_oil",
+          6
+        ]
+      ],
+      "method": "Toss the diced chicken with half the soy and a pinch of cornflour, then stir-fry in the oil with dried chillies and Sichuan pepper. Add garlic, ginger, capsicum and zucchini, then the remaining soy, black vinegar and honey. Toss through the peanuts and serve with rice."
+    },
+    {
+      "id": "nasi_goreng",
+      "name": "Chicken nasi goreng with fried egg",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_thigh",
+          180
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "jasmine",
+          55
+        ],
+        [
+          "cabbage",
+          60
+        ],
+        [
+          "soy_sauce",
+          15
+        ],
+        [
+          "honey",
+          5
+        ],
+        [
+          "canola_oil",
+          6
+        ]
+      ],
+      "method": "Use cold cooked rice. Fry shallot, garlic and chilli in most of the oil, add the diced chicken and cabbage, then the rice with soy and honey as kecap manis. Top with an egg fried in the remaining oil."
+    },
+    {
+      "id": "beef_rendang",
+      "name": "Beef rendang with rice",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 150,
+      "items": [
+        [
+          "beef_diced",
+          220
+        ],
+        [
+          "light_coconut_milk",
+          60
+        ],
+        [
+          "coconut_desiccated",
+          8
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "jasmine",
+          45
+        ],
+        [
+          "canola_oil",
+          5
+        ]
+      ],
+      "method": "Blend onion, garlic, ginger, galangal, lemongrass and dried chilli to a paste and fry it in the oil. Add the beef, coconut milk, kaffir lime leaves and water and simmer uncovered for 2 hours, stirring in the toasted coconut until dark and dry. Serve with rice."
+    },
+    {
+      "id": "gyudon",
+      "name": "Gyudon (Japanese beef and onion rice bowl)",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "beef_rump",
+          200
+        ],
+        [
+          "onion",
+          80
+        ],
+        [
+          "jasmine",
+          55
+        ],
+        [
+          "soy_sauce",
+          15
+        ],
+        [
+          "honey",
+          5
+        ],
+        [
+          "canola_oil",
+          5
+        ]
+      ],
+      "method": "Soften sliced onion in the oil, then add soy, honey, grated ginger and water and bring to a simmer. Add very thinly sliced rump and cook just until no longer pink. Spoon over rice with pickled ginger."
+    },
+    {
+      "id": "thai_beef_salad",
+      "name": "Thai beef salad with vermicelli",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "beef_rump",
+          220
+        ],
+        [
+          "lettuce",
+          60
+        ],
+        [
+          "cucumber",
+          80
+        ],
+        [
+          "tomato",
+          80
+        ],
+        [
+          "onion",
+          30
+        ],
+        [
+          "rice_noodles",
+          40
+        ],
+        [
+          "canola_oil",
+          5
+        ]
+      ],
+      "method": "Sear the rump in the oil to medium and rest, then slice thinly. Soak the vermicelli and toss with lettuce, cucumber, tomato, red onion, mint and coriander. Dress with lime, fish sauce, chilli and a pinch of sugar and top with the beef."
+    },
+    {
+      "id": "steamed_ginger_fish",
+      "name": "Steamed ginger and spring onion fish",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "white_fish",
+          250
+        ],
+        [
+          "jasmine",
+          60
+        ],
+        [
+          "bok_choy",
+          150
+        ],
+        [
+          "spring_onion",
+          20
+        ],
+        [
+          "soy_sauce",
+          15
+        ],
+        [
+          "canola_oil",
+          7
+        ]
+      ],
+      "method": "Steam the fish fillets over ginger slices for 8–10 minutes. Top with shredded spring onion and ginger, pour over the oil heated until smoking, then the soy sauce. Serve with rice and steamed bok choy."
+    },
+    {
+      "id": "chicken_laksa",
+      "name": "Chicken laksa",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "chicken_breast",
+          180
+        ],
+        [
+          "light_coconut_milk",
+          100
+        ],
+        [
+          "rice_noodles",
+          45
+        ],
+        [
+          "bok_choy",
+          80
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "onion",
+          30
+        ],
+        [
+          "curry_powder",
+          3
+        ],
+        [
+          "canola_oil",
+          5
+        ]
+      ],
+      "method": "Blend onion, lemongrass, garlic, ginger, chilli and curry powder into a paste and fry in the oil. Add the coconut milk and 300 ml stock, poach the sliced chicken for 8 minutes and add bok choy. Pour over the soaked noodles and top with a halved boiled egg and lime."
+    },
+    {
+      "id": "dakgalbi",
+      "name": "Korean spicy chicken stir-fry (dakgalbi)",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "cabbage",
+          100
+        ],
+        [
+          "sweet_potato",
+          80
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "soy_sauce",
+          10
+        ],
+        [
+          "honey",
+          5
+        ],
+        [
+          "jasmine",
+          30
+        ],
+        [
+          "canola_oil",
+          5
+        ]
+      ],
+      "method": "Marinate the chicken in gochugaru or chilli flakes, garlic, ginger, soy and honey. Stir-fry in the oil with sliced sweet potato until nearly tender, then add cabbage and onion and cook until the chicken is done. Serve with a small portion of rice."
+    },
+    {
+      "id": "crispy_tofu_stirfry",
+      "name": "Crispy air-fryer tofu stir-fry",
+      "slot": "main",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "vegetarian",
+        "air-fryer",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "tofu_firm",
+          250
+        ],
+        [
+          "stirfry_veg_frozen",
+          150
+        ],
+        [
+          "jasmine",
+          40
+        ],
+        [
+          "soy_sauce",
+          15
+        ],
+        [
+          "canola_oil",
+          5
+        ]
+      ],
+      "method": "Press and cube the tofu, toss with half the oil and a little cornflour and air-fry at 200°C for 15 minutes until crisp. Stir-fry the vegetables in the remaining oil with garlic, ginger and chilli. Toss in the tofu and soy sauce and serve with rice."
+    },
+    {
+      "id": "chicken_souvlaki_plate",
+      "name": "Chicken souvlaki plate with tzatziki",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "pita_wholemeal",
+          64
+        ],
+        [
+          "greek_yog",
+          60
+        ],
+        [
+          "cucumber",
+          50
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "onion",
+          20
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Marinate the chicken in lemon, oregano, garlic and the oil, then grill or air-fry for 14 minutes. Grate half the cucumber into the yoghurt with garlic and dill for tzatziki. Serve with warm pita, tomato, onion and the rest of the cucumber."
+    },
+    {
+      "id": "chicken_kofta_couscous",
+      "name": "Chicken kofta with herbed couscous and tahini yoghurt",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch",
+        "freezer-friendly",
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "couscous",
+          45
+        ],
+        [
+          "greek_yog",
+          40
+        ],
+        [
+          "tahini",
+          10
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "cucumber",
+          60
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Mince the chicken in a processor with onion, parsley, cumin, coriander and sumac, shape onto skewers and pan-fry in the oil. Pour boiling stock over the couscous and fluff with lemon and herbs. Serve with diced tomato and cucumber and the tahini whisked into the yoghurt."
+    },
+    {
+      "id": "beef_stifado",
+      "name": "Greek beef stifado with potatoes",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 120,
+      "items": [
+        [
+          "beef_diced",
+          220
+        ],
+        [
+          "onion",
+          100
+        ],
+        [
+          "tomato_tin",
+          120
+        ],
+        [
+          "potato",
+          150
+        ],
+        [
+          "olive_oil",
+          6
+        ]
+      ],
+      "method": "Brown the beef in the oil, add small whole or quartered onions, garlic, cinnamon, bay, allspice and red wine vinegar. Add the tomato and water and braise covered for 1.5 hours, adding the potato for the last 30 minutes."
+    },
+    {
+      "id": "chicken_shawarma_rice",
+      "name": "Chicken shawarma rice plate",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch",
+        "air-fryer"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "greek_yog",
+          50
+        ],
+        [
+          "cucumber",
+          60
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Marinate the thigh in shawarma spices (cumin, paprika, cinnamon, turmeric), garlic, lemon and the oil, then air-fry at 200°C for 16 minutes and slice. Serve over rice with cucumber and tomato salad and the yoghurt mixed with garlic and lemon."
+    },
+    {
+      "id": "greek_lemon_chicken_potatoes",
+      "name": "Greek lemon chicken and potatoes",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch"
+      ],
+      "prep_min": 50,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "potato",
+          205
+        ],
+        [
+          "green_beans",
+          80
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Toss the chicken and potato wedges with lemon juice, garlic, oregano, the oil and a splash of stock. Roast at 200°C for 45 minutes, adding the beans for the last 15. Spoon over the pan juices to serve."
+    },
+    {
+      "id": "moroccan_chicken_chickpea_tagine",
+      "name": "Moroccan chicken and chickpea tagine",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 40,
+      "items": [
+        [
+          "chicken_breast",
+          180
+        ],
+        [
+          "chickpeas_can",
+          100
+        ],
+        [
+          "tomato_tin",
+          100
+        ],
+        [
+          "carrot",
+          60
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "couscous",
+          35
+        ],
+        [
+          "olive_oil",
+          6
+        ]
+      ],
+      "method": "Fry onion in the oil with ras el hanout, cumin, cinnamon, garlic and ginger, then brown the chicken. Add carrot, chickpeas, tomato and water and simmer 25 minutes, finishing with lemon and coriander. Serve over couscous."
+    },
+    {
+      "id": "fish_plaki",
+      "name": "Greek baked fish plaki with potatoes",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch"
+      ],
+      "prep_min": 45,
+      "items": [
+        [
+          "white_fish",
+          250
+        ],
+        [
+          "potato",
+          220
+        ],
+        [
+          "tomato_tin",
+          150
+        ],
+        [
+          "onion",
+          50
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Roast the sliced potatoes with half the oil at 200°C for 20 minutes. Simmer onion, garlic and tinned tomato with oregano in the rest of the oil, pour over the potatoes, lay the fish on top and bake 15 minutes more. Finish with parsley and lemon."
+    },
+    {
+      "id": "salmon_greek_salad_quinoa",
+      "name": "Baked salmon with Greek salad and quinoa",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "salmon",
+          190
+        ],
+        [
+          "quinoa",
+          35
+        ],
+        [
+          "cucumber",
+          60
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "feta_light",
+          20
+        ]
+      ],
+      "method": "Bake the salmon at 200°C for 12 minutes with lemon and oregano. Cook the quinoa. Toss the quinoa with cucumber, tomato, red onion, crumbled feta and a squeeze of lemon and serve with the salmon."
+    },
+    {
+      "id": "beef_kafta_hummus",
+      "name": "Beef kafta with hummus and pita",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch",
+        "freezer-friendly",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "beef_mince_lean",
+          200
+        ],
+        [
+          "hummus",
+          50
+        ],
+        [
+          "pita_wholemeal",
+          40
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "cucumber",
+          60
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Mix the mince with grated onion, parsley, allspice, cumin and salt, shape into kafta and grill in the oil for 8–10 minutes. Spread the hummus on a plate and serve with the kafta, warm pita and a tomato and cucumber salad."
+    },
+    {
+      "id": "prawn_saganaki_orzo",
+      "name": "Prawn saganaki with orzo",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "prawns",
+          230
+        ],
+        [
+          "pasta",
+          60
+        ],
+        [
+          "tomato_tin",
+          150
+        ],
+        [
+          "feta_light",
+          25
+        ],
+        [
+          "olive_oil",
+          6
+        ]
+      ],
+      "method": "Cook the orzo. Fry garlic and chilli in the oil, add the tomato and oregano and simmer 10 minutes, then add the prawns for 3 minutes. Stir through the orzo and top with crumbled feta and parsley."
+    },
+    {
+      "id": "tuna_puttanesca",
+      "name": "Tuna puttanesca pasta",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 15,
+      "items": [
+        [
+          "tuna_can",
+          150
+        ],
+        [
+          "pasta",
+          70
+        ],
+        [
+          "tomato_tin",
+          150
+        ],
+        [
+          "onion",
+          30
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Cook the pasta. Fry onion, garlic, chilli and a few capers in the oil, add the tomato and simmer 8 minutes, then fold in the tuna and olives if you like. Toss with the pasta and parsley."
+    },
+    {
+      "id": "chicken_cacciatore",
+      "name": "Chicken cacciatore with pasta",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 45,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "tomato_tin",
+          150
+        ],
+        [
+          "capsicum",
+          80
+        ],
+        [
+          "mushroom",
+          80
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "pasta",
+          45
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Brown the chicken in the oil, add onion, garlic, capsicum and mushroom and soften. Add the tomato, rosemary, bay and a splash of vinegar and simmer 30 minutes. Serve over the pasta."
+    },
+    {
+      "id": "spaghetti_bolognese",
+      "name": "Spaghetti bolognese",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 40,
+      "items": [
+        [
+          "beef_mince_lean",
+          180
+        ],
+        [
+          "pasta",
+          70
+        ],
+        [
+          "tomato_tin",
+          150
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "carrot",
+          40
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Soften finely diced onion, carrot and garlic in the oil, then brown the mince. Add the tomato, oregano, a stock cube and water and simmer 25 minutes. Serve over the spaghetti."
+    },
+    {
+      "id": "chicken_lentil_harira",
+      "name": "Moroccan chicken and lentil harira",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 45,
+      "items": [
+        [
+          "chicken_breast",
+          180
+        ],
+        [
+          "red_lentils",
+          40
+        ],
+        [
+          "chickpeas_can",
+          60
+        ],
+        [
+          "tomato_tin",
+          150
+        ],
+        [
+          "onion",
+          50
+        ],
+        [
+          "carrot",
+          40
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Fry onion, carrot and garlic in the oil with cumin, turmeric, ginger, cinnamon and paprika. Add the chicken, lentils, tomato and 500 ml water and simmer 25 minutes, adding the chickpeas for the last 10. Shred the chicken back in and finish with lemon and coriander."
+    },
+    {
+      "id": "turkish_beef_eggplant",
+      "name": "Turkish beef and eggplant with bulgur",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 45,
+      "items": [
+        [
+          "beef_mince_lean",
+          180
+        ],
+        [
+          "eggplant",
+          250
+        ],
+        [
+          "tomato_tin",
+          100
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "bulgur",
+          40
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Cube the eggplant, toss with the oil and roast at 220°C for 20 minutes. Brown the mince with onion, garlic, paprika, cumin and pul biber, add the tomato and the eggplant and simmer 10 minutes. Serve with bulgur cooked in stock."
+    },
+    {
+      "id": "lighter_moussaka",
+      "name": "Lighter beef moussaka",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 75,
+      "items": [
+        [
+          "beef_mince_lean",
+          180
+        ],
+        [
+          "eggplant",
+          200
+        ],
+        [
+          "potato",
+          120
+        ],
+        [
+          "tomato_tin",
+          120
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "ricotta",
+          50
+        ],
+        [
+          "parmesan",
+          10
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Slice and roast the eggplant and potato brushed with the oil. Brown the mince with onion, garlic, cinnamon and oregano, add the tomato and simmer 15 minutes. Layer potato, eggplant and meat in a dish, top with ricotta mixed with parmesan and bake at 190°C for 30 minutes."
+    },
+    {
+      "id": "chicken_prawn_paella",
+      "name": "Chicken and prawn paella",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch"
+      ],
+      "prep_min": 45,
+      "items": [
+        [
+          "chicken_thigh",
+          120
+        ],
+        [
+          "prawns",
+          120
+        ],
+        [
+          "basmati",
+          60
+        ],
+        [
+          "capsicum",
+          60
+        ],
+        [
+          "peas_frozen",
+          40
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "olive_oil",
+          6
+        ]
+      ],
+      "method": "Brown the chicken in the oil, add capsicum, garlic, grated tomato, smoked paprika and saffron or turmeric. Stir in the rice and hot stock and simmer undisturbed 15 minutes, then add the prawns and peas, cover and cook 5 minutes more. Serve with lemon."
+    },
+    {
+      "id": "persian_chicken_kebab",
+      "name": "Persian chicken kebab (joojeh) with rice",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "greek_yog",
+          40
+        ],
+        [
+          "basmati",
+          60
+        ],
+        [
+          "tomato",
+          80
+        ],
+        [
+          "onion",
+          20
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Marinate the chicken in yoghurt, grated onion, lemon and saffron or turmeric. Thread onto skewers with tomato and grill or air-fry for 14 minutes brushed with the oil. Serve with rice."
+    },
+    {
+      "id": "chicken_meatball_spaghetti",
+      "name": "Chicken meatball spaghetti",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 35,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "pasta",
+          65
+        ],
+        [
+          "tomato_tin",
+          150
+        ],
+        [
+          "parmesan",
+          10
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Mince the chicken in a processor with garlic, parsley and half the parmesan, roll into balls and brown in the oil. Add the tomato and basil and simmer 15 minutes. Toss with the spaghetti and top with the remaining parmesan."
+    },
+    {
+      "id": "prawn_zucchini_linguine",
+      "name": "Prawn, chilli and zucchini linguine",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "prawns",
+          220
+        ],
+        [
+          "pasta",
+          70
+        ],
+        [
+          "zucchini",
+          150
+        ],
+        [
+          "tomato",
+          80
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Cook the linguine. Fry garlic and chilli in the oil, add grated zucchini and chopped tomato and cook 4 minutes, then the prawns for 3 minutes. Toss with the pasta, lemon zest and parsley."
+    },
+    {
+      "id": "beef_lasagne",
+      "name": "Lighter beef and spinach lasagne",
+      "slot": "main",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 75,
+      "items": [
+        [
+          "beef_mince_lean",
+          170
+        ],
+        [
+          "pasta",
+          50
+        ],
+        [
+          "tomato_tin",
+          150
+        ],
+        [
+          "ricotta",
+          50
+        ],
+        [
+          "mozzarella_light",
+          20
+        ],
+        [
+          "spinach",
+          50
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Make a quick ragu with the mince, onion, garlic, oregano and tomato in the oil. Layer dried lasagne sheets with ragu and the ricotta mixed with wilted spinach. Top with mozzarella and bake covered at 180°C for 35 minutes, then uncovered for 10."
+    },
+    {
+      "id": "chicken_burrito_bowl",
+      "name": "Chicken burrito bowl",
+      "slot": "main",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_breast",
+          180
+        ],
+        [
+          "basmati",
+          50
+        ],
+        [
+          "black_beans_can",
+          80
+        ],
+        [
+          "corn_frozen",
+          50
+        ],
+        [
+          "salsa",
+          60
+        ],
+        [
+          "lettuce",
+          40
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Season the chicken with cumin, smoked paprika, oregano and lime and pan-fry in the oil. Cook the rice with lime and coriander. Assemble with black beans, charred corn, lettuce and salsa."
+    },
+    {
+      "id": "beef_tacos",
+      "name": "Beef soft tacos",
+      "slot": "main",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "beef_mince_lean",
+          180
+        ],
+        [
+          "corn_tortilla",
+          100
+        ],
+        [
+          "lettuce",
+          40
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "greek_yog",
+          30
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Brown the mince in the oil with onion, cumin, smoked paprika, chilli and oregano and a splash of water. Warm the tortillas. Fill with the beef, lettuce and tomato and top with yoghurt as sour cream."
+    },
+    {
+      "id": "chilli_con_carne",
+      "name": "Chilli con carne with rice",
+      "slot": "main",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 40,
+      "items": [
+        [
+          "beef_mince_lean",
+          180
+        ],
+        [
+          "kidney_beans_can",
+          100
+        ],
+        [
+          "tomato_tin",
+          150
+        ],
+        [
+          "onion",
+          50
+        ],
+        [
+          "capsicum",
+          60
+        ],
+        [
+          "basmati",
+          40
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Fry onion, capsicum and garlic in the oil, brown the mince with cumin, chilli powder, smoked paprika and oregano. Add the tomato and beans and simmer 25 minutes. Serve over rice."
+    },
+    {
+      "id": "fish_tacos",
+      "name": "Air-fryer fish tacos with slaw",
+      "slot": "main",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "air-fryer",
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "white_fish",
+          220
+        ],
+        [
+          "corn_tortilla",
+          100
+        ],
+        [
+          "cabbage",
+          60
+        ],
+        [
+          "greek_yog",
+          40
+        ],
+        [
+          "avocado",
+          30
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Season the fish with chilli, cumin and lime, brush with the oil and air-fry at 200°C for 8 minutes. Toss shredded cabbage with lime and half the yoghurt. Fill warm tortillas with fish, slaw, avocado and the rest of the yoghurt mixed with chipotle or hot sauce."
+    },
+    {
+      "id": "chicken_fajitas",
+      "name": "Chicken fajitas",
+      "slot": "main",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "capsicum",
+          120
+        ],
+        [
+          "onion",
+          60
+        ],
+        [
+          "wholemeal_wrap",
+          86
+        ],
+        [
+          "greek_yog",
+          30
+        ],
+        [
+          "olive_oil",
+          6
+        ]
+      ],
+      "method": "Toss the chicken strips with cumin, paprika, chilli, garlic and lime and sear in the oil. Add sliced capsicum and onion and cook until charred. Serve in warm wraps with yoghurt."
+    },
+    {
+      "id": "beef_barbacoa_bowl",
+      "name": "Slow-cooked beef barbacoa bowl",
+      "slot": "main",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 180,
+      "items": [
+        [
+          "beef_diced",
+          200
+        ],
+        [
+          "basmati",
+          50
+        ],
+        [
+          "black_beans_can",
+          60
+        ],
+        [
+          "salsa",
+          50
+        ],
+        [
+          "cabbage",
+          40
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Brown the beef in the oil, then slow-cook with chipotle or chilli, garlic, cumin, oregano, cloves, bay, lime and a cup of stock for 3 hours (or 50 minutes pressure-cooked) and shred. Serve over rice with black beans, shredded cabbage and salsa."
+    },
+    {
+      "id": "chicken_enchiladas",
+      "name": "Chicken and black bean enchiladas",
+      "slot": "main",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 40,
+      "items": [
+        [
+          "chicken_breast",
+          170
+        ],
+        [
+          "black_beans_can",
+          60
+        ],
+        [
+          "tomato_tin",
+          120
+        ],
+        [
+          "corn_tortilla",
+          50
+        ],
+        [
+          "mozzarella_light",
+          30
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Poach and shred the chicken and mix with the beans, cumin and chilli. Simmer the tomato with garlic, chilli powder and oregano in the oil for the sauce. Roll the filling in tortillas, cover with sauce and cheese and bake at 190°C for 20 minutes."
+    },
+    {
+      "id": "chicken_tortilla_soup",
+      "name": "Chicken tortilla soup",
+      "slot": "main",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 35,
+      "items": [
+        [
+          "chicken_breast",
+          180
+        ],
+        [
+          "black_beans_can",
+          80
+        ],
+        [
+          "tomato_tin",
+          150
+        ],
+        [
+          "corn_frozen",
+          50
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "corn_tortilla",
+          30
+        ],
+        [
+          "avocado",
+          30
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Fry onion, garlic, cumin and chipotle or chilli in the oil, add the tomato, 500 ml stock and the chicken and simmer 15 minutes. Shred the chicken, add beans and corn and simmer 5 minutes. Top with baked tortilla strips, avocado and lime."
+    },
+    {
+      "id": "peruvian_chicken",
+      "name": "Peruvian-style roast chicken with potatoes",
+      "slot": "main",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "batch"
+      ],
+      "prep_min": 45,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "potato",
+          225
+        ],
+        [
+          "lettuce",
+          50
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "olive_oil",
+          6
+        ]
+      ],
+      "method": "Marinate the chicken in garlic, cumin, paprika, oregano, lime, a splash of soy and half the oil. Roast with the potato wedges tossed in the remaining oil at 210°C for 35 minutes. Serve with lettuce and tomato salad and a green chilli-coriander sauce."
+    },
+    {
+      "id": "steak_chimichurri",
+      "name": "Steak with chimichurri and sweet potato",
+      "slot": "main",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "beef_rump",
+          220
+        ],
+        [
+          "sweet_potato",
+          200
+        ],
+        [
+          "spinach",
+          50
+        ],
+        [
+          "olive_oil",
+          8
+        ]
+      ],
+      "method": "Roast sweet potato wedges at 210°C for 25 minutes. Season and sear the rump in a little of the oil, then rest. Blitz parsley, oregano, garlic, chilli, red wine vinegar and the remaining oil into chimichurri and spoon over the sliced steak with spinach."
+    },
+    {
+      "id": "cuban_picadillo",
+      "name": "Cuban beef picadillo with rice",
+      "slot": "main",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 35,
+      "items": [
+        [
+          "beef_mince_lean",
+          190
+        ],
+        [
+          "potato",
+          100
+        ],
+        [
+          "tomato_tin",
+          120
+        ],
+        [
+          "capsicum",
+          50
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "basmati",
+          40
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Fry onion, capsicum and garlic in the oil, brown the mince with cumin and oregano. Add the diced potato, tomato, a few olives and a little water and simmer 20 minutes until the potato is tender. Serve with rice."
+    },
+    {
+      "id": "chipotle_prawn_burrito_bowl",
+      "name": "Chipotle prawn burrito bowl",
+      "slot": "main",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "prawns",
+          220
+        ],
+        [
+          "basmati",
+          55
+        ],
+        [
+          "black_beans_can",
+          70
+        ],
+        [
+          "corn_frozen",
+          40
+        ],
+        [
+          "salsa",
+          40
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Toss the prawns with chipotle or smoked paprika, garlic, cumin and lime and sear in the oil for 3 minutes. Cook the rice. Serve with black beans, charred corn, salsa and coriander."
+    },
+    {
+      "id": "steak_mash_greens",
+      "name": "Steak with mash and greens",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "beef_rump",
+          220
+        ],
+        [
+          "potato",
+          220
+        ],
+        [
+          "broccoli",
+          100
+        ],
+        [
+          "skim_milk",
+          30
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Boil the potato and mash with the milk, salt and pepper. Season the rump and sear in the oil to your liking, then rest. Serve with the mash and steamed broccoli."
+    },
+    {
+      "id": "chicken_parmi",
+      "name": "Air-fryer chicken parmi with chips and salad",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "air-fryer"
+      ],
+      "prep_min": 35,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "breadcrumbs",
+          25
+        ],
+        [
+          "egg_white",
+          30
+        ],
+        [
+          "tomato_tin",
+          50
+        ],
+        [
+          "mozzarella_light",
+          30
+        ],
+        [
+          "potato",
+          120
+        ],
+        [
+          "lettuce",
+          60
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Butterfly the chicken, dip in egg white then breadcrumbs, spray with half the oil and air-fry at 200°C for 12 minutes. Top with tomato simmered with oregano and the mozzarella and air-fry 3 minutes more. Serve with potato wedges air-fried in the remaining oil and a lettuce salad."
+    },
+    {
+      "id": "cottage_pie",
+      "name": "Cottage pie",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 60,
+      "items": [
+        [
+          "beef_mince_lean",
+          180
+        ],
+        [
+          "potato",
+          200
+        ],
+        [
+          "carrot",
+          50
+        ],
+        [
+          "peas_frozen",
+          50
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "skim_milk",
+          30
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Brown the mince with onion and carrot in the oil, add a stock cube, Worcestershire, thyme and a little water and simmer 15 minutes with the peas. Top with potato mashed with the milk and bake at 200°C for 25 minutes."
+    },
+    {
+      "id": "roast_chicken_traybake",
+      "name": "Roast chicken, pumpkin and potato traybake",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch"
+      ],
+      "prep_min": 50,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "pumpkin",
+          150
+        ],
+        [
+          "potato",
+          120
+        ],
+        [
+          "broccoli",
+          100
+        ],
+        [
+          "onion",
+          50
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Toss the chicken, pumpkin, potato and onion wedges with the oil, rosemary, garlic and paprika. Roast at 200°C for 40 minutes, adding the broccoli for the last 12."
+    },
+    {
+      "id": "baked_salmon_crushed_potatoes",
+      "name": "Baked salmon with crushed potatoes and beans",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "salmon",
+          210
+        ],
+        [
+          "potato",
+          150
+        ],
+        [
+          "green_beans",
+          100
+        ]
+      ],
+      "method": "Boil the potatoes until tender and crush roughly with lemon, dill and salt. Bake the salmon at 200°C for 12 minutes. Serve with steamed beans."
+    },
+    {
+      "id": "creamy_chicken_mushroom_pasta",
+      "name": "Creamy chicken and mushroom pasta",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_breast",
+          180
+        ],
+        [
+          "pasta",
+          65
+        ],
+        [
+          "mushroom",
+          120
+        ],
+        [
+          "skim_milk",
+          100
+        ],
+        [
+          "parmesan",
+          10
+        ],
+        [
+          "spinach",
+          50
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Cook the pasta. Sear the chicken in the oil, add mushroom and garlic and cook until golden. Add the milk thickened with a teaspoon of cornflour and the parmesan, stir in the spinach and toss with the pasta."
+    },
+    {
+      "id": "beef_rissoles_mash",
+      "name": "Beef rissoles with mash and peas",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 35,
+      "items": [
+        [
+          "beef_mince_lean",
+          200
+        ],
+        [
+          "breadcrumbs",
+          15
+        ],
+        [
+          "potato",
+          180
+        ],
+        [
+          "peas_frozen",
+          60
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Mix the mince with breadcrumbs, grated onion, Worcestershire, parsley and pepper and shape into rissoles. Pan-fry in the oil for 10 minutes. Serve with mashed potato and peas."
+    },
+    {
+      "id": "tuna_mornay_bake",
+      "name": "Tuna mornay pasta bake",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 35,
+      "items": [
+        [
+          "tuna_can",
+          180
+        ],
+        [
+          "pasta",
+          60
+        ],
+        [
+          "skim_milk",
+          150
+        ],
+        [
+          "broccoli",
+          100
+        ],
+        [
+          "mozzarella_light",
+          20
+        ],
+        [
+          "onion",
+          30
+        ]
+      ],
+      "method": "Cook the pasta and broccoli. Simmer the milk with the onion, mustard and a teaspoon of cornflour until thick, then fold through the pasta, broccoli and tuna. Top with mozzarella and bake at 200°C for 15 minutes."
+    },
+    {
+      "id": "air_fryer_fish_chips",
+      "name": "Air-fryer fish and chips with salad",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "air-fryer",
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "white_fish",
+          230
+        ],
+        [
+          "potato",
+          220
+        ],
+        [
+          "breadcrumbs",
+          20
+        ],
+        [
+          "lettuce",
+          60
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Cut the potato into chips, toss with most of the oil and air-fry at 200°C for 20 minutes. Season the fish, press into the breadcrumbs, spray with the remaining oil and air-fry 10 minutes. Serve with lettuce and lemon."
+    },
+    {
+      "id": "beef_veg_casserole",
+      "name": "Beef and vegetable casserole",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 120,
+      "items": [
+        [
+          "beef_diced",
+          220
+        ],
+        [
+          "potato",
+          150
+        ],
+        [
+          "carrot",
+          80
+        ],
+        [
+          "onion",
+          60
+        ],
+        [
+          "tomato_paste",
+          15
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Brown the beef in the oil, add onion, carrot, tomato paste, a stock cube, thyme and bay and water to cover. Cover and bake at 160°C for 1.5 hours, adding the potato for the last 45 minutes."
+    },
+    {
+      "id": "chicken_caesar_salad",
+      "name": "Lighter chicken Caesar salad",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "lettuce",
+          100
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "parmesan",
+          15
+        ],
+        [
+          "wholegrain_bread",
+          40
+        ],
+        [
+          "greek_yog",
+          40
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Grill the chicken in the oil and slice. Toast cubed bread into croutons and soft-boil the egg. Toss cos lettuce with a dressing of yoghurt, lemon, garlic, mustard and half the parmesan, then top with chicken, croutons, egg and the remaining parmesan."
+    },
+    {
+      "id": "steak_pumpkin_feta_salad",
+      "name": "Steak, roast pumpkin and feta salad",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "beef_rump",
+          220
+        ],
+        [
+          "pumpkin",
+          300
+        ],
+        [
+          "rocket",
+          50
+        ],
+        [
+          "feta_light",
+          20
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Roast the pumpkin cubes with most of the oil at 210°C for 25 minutes. Sear the rump in the remaining oil and rest. Toss rocket with pumpkin, crumbled feta and balsamic, then top with sliced steak."
+    },
+    {
+      "id": "bbq_chicken_corn_slaw",
+      "name": "Smoky BBQ chicken with corn, potato and slaw",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "chicken_thigh",
+          220
+        ],
+        [
+          "corn_frozen",
+          100
+        ],
+        [
+          "potato",
+          120
+        ],
+        [
+          "cabbage",
+          100
+        ],
+        [
+          "carrot",
+          40
+        ],
+        [
+          "greek_yog",
+          40
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Rub the chicken with smoked paprika, garlic and cumin and grill in the oil. Microwave the potato and char the corn in a hot pan. Toss shredded cabbage and carrot with yoghurt, vinegar and mustard for slaw."
+    },
+    {
+      "id": "chicken_ratatouille_couscous",
+      "name": "Chicken ratatouille with couscous",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 40,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "zucchini",
+          100
+        ],
+        [
+          "eggplant",
+          100
+        ],
+        [
+          "capsicum",
+          80
+        ],
+        [
+          "tomato_tin",
+          100
+        ],
+        [
+          "couscous",
+          40
+        ],
+        [
+          "olive_oil",
+          7
+        ]
+      ],
+      "method": "Sear the chicken in half the oil and set aside. Cook diced eggplant, zucchini, capsicum and garlic in the remaining oil, add the tomato and herbs de Provence and simmer 15 minutes with the chicken. Serve over couscous."
+    },
+    {
+      "id": "beef_stroganoff",
+      "name": "Lighter beef stroganoff with noodles",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "beef_rump",
+          200
+        ],
+        [
+          "mushroom",
+          150
+        ],
+        [
+          "onion",
+          60
+        ],
+        [
+          "greek_yog",
+          60
+        ],
+        [
+          "egg_noodles",
+          55
+        ],
+        [
+          "olive_oil",
+          6
+        ]
+      ],
+      "method": "Sear thin strips of rump in the oil and remove. Cook onion, mushroom, garlic and paprika, add a little stock and Dijon, then return the beef. Stir in the yoghurt off the heat and serve over egg noodles."
+    },
+    {
+      "id": "fish_pie",
+      "name": "Fish and prawn pie",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 50,
+      "items": [
+        [
+          "white_fish",
+          200
+        ],
+        [
+          "prawns",
+          60
+        ],
+        [
+          "potato",
+          280
+        ],
+        [
+          "skim_milk",
+          100
+        ],
+        [
+          "peas_frozen",
+          50
+        ]
+      ],
+      "method": "Poach the fish in most of the milk with bay, then thicken the milk with a teaspoon of cornflour and add the prawns, peas and parsley. Top with potato mashed with the remaining milk and bake at 200°C for 25 minutes."
+    },
+    {
+      "id": "chicken_avocado_quinoa_bowl",
+      "name": "Chicken, avocado and quinoa bowl",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "under-30-min"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_breast",
+          200
+        ],
+        [
+          "quinoa",
+          50
+        ],
+        [
+          "avocado",
+          40
+        ],
+        [
+          "spinach",
+          60
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Cook the quinoa. Season the chicken with lemon and herbs and grill in the oil, then slice. Assemble with spinach, tomato and avocado and dress with lemon juice."
+    },
+    {
+      "id": "aussie_steak_sandwich",
+      "name": "Aussie steak sandwich with beetroot",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "beef_rump",
+          180
+        ],
+        [
+          "wholegrain_bread",
+          90
+        ],
+        [
+          "lettuce",
+          30
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "onion",
+          40
+        ],
+        [
+          "beetroot",
+          40
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Slice the rump thin and sear in the oil, then caramelise the onion in the same pan. Toast the bread. Layer with steak, onion, lettuce, tomato and sliced beetroot."
+    },
+    {
+      "id": "potato_spinach_frittata",
+      "name": "Potato, spinach and feta frittata",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "batch"
+      ],
+      "prep_min": 35,
+      "items": [
+        [
+          "egg_white",
+          120
+        ],
+        [
+          "egg",
+          208
+        ],
+        [
+          "potato",
+          150
+        ],
+        [
+          "spinach",
+          60
+        ],
+        [
+          "feta_light",
+          25
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Slice and microwave the potato until just tender, then brown in the oil in an ovenproof pan. Add the spinach, pour over the whisked eggs and egg whites and crumble over the feta. Cook gently 5 minutes, then bake at 180°C for 12 minutes until set."
+    },
+    {
+      "id": "chicken_pasta_bake",
+      "name": "Chicken and zucchini pasta bake",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 40,
+      "items": [
+        [
+          "chicken_breast",
+          180
+        ],
+        [
+          "pasta",
+          65
+        ],
+        [
+          "tomato_tin",
+          150
+        ],
+        [
+          "zucchini",
+          80
+        ],
+        [
+          "mozzarella_light",
+          25
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Cook the pasta. Brown the diced chicken in the oil, add zucchini, garlic, tomato and oregano and simmer 10 minutes. Mix with the pasta, top with mozzarella and bake at 200°C for 15 minutes."
+    },
+    {
+      "id": "chicken_broccoli_rice_bake",
+      "name": "Cheesy chicken, broccoli and rice bake",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 50,
+      "items": [
+        [
+          "chicken_breast",
+          180
+        ],
+        [
+          "brown_rice",
+          55
+        ],
+        [
+          "broccoli",
+          150
+        ],
+        [
+          "mozzarella_light",
+          25
+        ],
+        [
+          "skim_milk",
+          50
+        ]
+      ],
+      "method": "Cook the brown rice. Mix the raw diced chicken, rice, broccoli florets, milk, garlic powder, mustard and half the cheese in a baking dish. Top with the remaining cheese, cover and bake at 190°C for 30 minutes."
+    },
+    {
+      "id": "chicken_pumpkin_risotto",
+      "name": "Baked chicken and pumpkin risotto",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 50,
+      "items": [
+        [
+          "chicken_breast",
+          180
+        ],
+        [
+          "brown_rice",
+          55
+        ],
+        [
+          "pumpkin",
+          150
+        ],
+        [
+          "parmesan",
+          10
+        ],
+        [
+          "spinach",
+          50
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Brown the chicken and pumpkin in the oil with garlic and sage. Stir in the brown rice and 300 ml hot stock, cover and bake at 180°C for 45 minutes until the rice is tender. Stir through the spinach and parmesan."
+    },
+    {
+      "id": "grilled_barramundi_sweet_potato",
+      "name": "Grilled barramundi with sweet potato and greens",
+      "slot": "main",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-30-min"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "white_fish",
+          250
+        ],
+        [
+          "sweet_potato",
+          240
+        ],
+        [
+          "spinach",
+          60
+        ],
+        [
+          "olive_oil",
+          6
+        ]
+      ],
+      "method": "Roast sweet potato wedges with most of the oil at 210°C for 25 minutes. Season the fish with lemon pepper and pan-grill in the remaining oil for 6–8 minutes. Serve with wilted spinach and lemon."
+    },
+    {
+      "id": "greek_yog_parfait",
+      "name": "Greek yoghurt berry parfait",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "no-cook",
+        "under-15-min"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "greek_yog",
+          230
+        ],
+        [
+          "oats",
+          20
+        ],
+        [
+          "berries_frozen",
+          50
+        ],
+        [
+          "honey",
+          5
+        ]
+      ],
+      "method": "Layer the yoghurt with thawed berries and oats. Drizzle with the honey and a pinch of cinnamon."
+    },
+    {
+      "id": "vanilla_protein_shake",
+      "name": "Vanilla protein milkshake",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "no-cook",
+        "under-15-min"
+      ],
+      "prep_min": 3,
+      "items": [
+        [
+          "whey",
+          36
+        ],
+        [
+          "skim_milk",
+          250
+        ]
+      ],
+      "method": "Blend or shake the whey with cold milk and ice. Add a drop of vanilla or cinnamon if you like."
+    },
+    {
+      "id": "egg_white_muffins",
+      "name": "Egg white, spinach and feta muffins",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "batch"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "egg_white",
+          200
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "spinach",
+          40
+        ],
+        [
+          "capsicum",
+          30
+        ],
+        [
+          "feta_light",
+          15
+        ]
+      ],
+      "method": "Whisk the egg and egg whites with pepper, then pour over chopped spinach, capsicum and feta in silicone muffin cups. Bake at 180°C for 18 minutes or air-fry at 160°C for 12; they keep 4 days in the fridge."
+    },
+    {
+      "id": "cottage_cheese_apple",
+      "name": "Cottage cheese with apple and cinnamon",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "no-cook",
+        "under-15-min"
+      ],
+      "prep_min": 3,
+      "items": [
+        [
+          "cottage_cheese",
+          250
+        ],
+        [
+          "apple",
+          80
+        ]
+      ],
+      "method": "Spoon the cottage cheese into a bowl and top with diced apple. Dust with cinnamon."
+    },
+    {
+      "id": "choc_protein_mousse",
+      "name": "Chocolate protein yoghurt mousse",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "no-cook",
+        "under-15-min"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "greek_yog",
+          200
+        ],
+        [
+          "whey",
+          18
+        ],
+        [
+          "cocoa",
+          5
+        ]
+      ],
+      "method": "Whisk the whey and cocoa into the yoghurt until smooth and thick. Chill for 10 minutes if you have time."
+    },
+    {
+      "id": "chia_protein_pudding",
+      "name": "Berry chia protein pudding",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "no-cook",
+        "batch"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "almond_milk",
+          200
+        ],
+        [
+          "whey",
+          36
+        ],
+        [
+          "chia",
+          15
+        ],
+        [
+          "berries_frozen",
+          50
+        ]
+      ],
+      "method": "Shake the almond milk, whey and chia together in a jar and refrigerate overnight. Top with the berries before eating."
+    },
+    {
+      "id": "tuna_cucumber_boats",
+      "name": "Tuna cucumber boats",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "no-cook",
+        "under-15-min"
+      ],
+      "prep_min": 8,
+      "items": [
+        [
+          "tuna_can",
+          100
+        ],
+        [
+          "greek_yog",
+          40
+        ],
+        [
+          "cucumber",
+          150
+        ]
+      ],
+      "method": "Mix the tuna with yoghurt, lemon juice, pepper and chilli flakes. Halve the cucumber lengthways, scoop out the seeds and fill with the tuna."
+    },
+    {
+      "id": "salmon_toast",
+      "name": "Tinned salmon on toast",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "salmon_can",
+          100
+        ],
+        [
+          "wholegrain_bread",
+          35
+        ],
+        [
+          "cucumber",
+          40
+        ]
+      ],
+      "method": "Toast the bread. Mash the salmon with lemon juice and pepper and pile onto the toast with sliced cucumber."
+    },
+    {
+      "id": "protein_bliss_balls",
+      "name": "Peanut protein bliss balls",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "no-cook",
+        "batch"
+      ],
+      "prep_min": 10,
+      "items": [
+        [
+          "whey",
+          36
+        ],
+        [
+          "oats",
+          20
+        ],
+        [
+          "peanut_butter",
+          10
+        ],
+        [
+          "honey",
+          5
+        ]
+      ],
+      "method": "Mix the whey, oats, peanut butter and honey with a tablespoon or two of water until it forms a dough. Roll into 3 balls and chill; make a batch for the week."
+    },
+    {
+      "id": "banana_protein_smoothie",
+      "name": "Banana protein smoothie",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "no-cook",
+        "under-15-min"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "whey",
+          36
+        ],
+        [
+          "banana",
+          80
+        ],
+        [
+          "skim_milk",
+          200
+        ]
+      ],
+      "method": "Blend the banana, whey and milk with ice and a pinch of cinnamon until smooth."
+    },
+    {
+      "id": "choc_protein_mug_cake",
+      "name": "Chocolate protein mug cake",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "under-15-min"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "whey",
+          36
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "oats",
+          15
+        ],
+        [
+          "cocoa",
+          5
+        ],
+        [
+          "skim_milk",
+          30
+        ]
+      ],
+      "method": "Mix everything with a pinch of baking powder in a large mug until smooth. Microwave for 60–75 seconds until just set."
+    },
+    {
+      "id": "steak_mini_wrap",
+      "name": "Steak and salad mini wrap",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 12,
+      "items": [
+        [
+          "beef_rump",
+          110
+        ],
+        [
+          "wholemeal_wrap",
+          43
+        ],
+        [
+          "lettuce",
+          30
+        ]
+      ],
+      "method": "Sear the seasoned rump in a dry non-stick pan and slice thinly (or use leftover steak). Roll in the wrap with lettuce and a little mustard."
+    },
+    {
+      "id": "cottage_cheese_tomato_toast",
+      "name": "Cottage cheese and tomato toast",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "under-15-min"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "cottage_cheese",
+          210
+        ],
+        [
+          "wholegrain_bread",
+          35
+        ],
+        [
+          "tomato",
+          60
+        ]
+      ],
+      "method": "Toast the bread and spread with the cottage cheese. Top with sliced tomato, cracked pepper and chilli flakes."
+    },
+    {
+      "id": "frozen_yoghurt_bark",
+      "name": "Berry protein frozen yoghurt bark",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "no-cook",
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "greek_yog",
+          200
+        ],
+        [
+          "whey",
+          18
+        ],
+        [
+          "berries_frozen",
+          60
+        ]
+      ],
+      "method": "Mix the whey into the yoghurt, spread thinly on a lined tray and scatter over the berries. Freeze for 2 hours and break into pieces."
+    },
+    {
+      "id": "chicken_avocado_rice_cakes",
+      "name": "Chicken and avocado rice cakes",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-15-min",
+        "batch"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "chicken_breast",
+          110
+        ],
+        [
+          "avocado",
+          25
+        ],
+        [
+          "rice_cakes",
+          18
+        ]
+      ],
+      "method": "Use poached chicken from your batch cook (weight is raw) and shred it. Smash the avocado with lemon and pepper onto the rice cakes and top with the chicken."
+    },
+    {
+      "id": "sardines_toast",
+      "name": "Sardines on toast with tomato",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "sardines",
+          90
+        ],
+        [
+          "wholegrain_bread",
+          35
+        ],
+        [
+          "tomato",
+          50
+        ]
+      ],
+      "method": "Toast the bread and top with sliced tomato. Lay over the drained sardines and finish with lemon and pepper."
+    },
+    {
+      "id": "prawn_cocktail_cups",
+      "name": "Prawn cocktail lettuce cups",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 10,
+      "items": [
+        [
+          "prawns",
+          150
+        ],
+        [
+          "greek_yog",
+          40
+        ],
+        [
+          "tomato_paste",
+          5
+        ],
+        [
+          "lettuce",
+          50
+        ]
+      ],
+      "method": "Poach the raw prawns in simmering water for 2–3 minutes, then cool in iced water. Mix the yoghurt, tomato paste, lemon and a dash of Worcestershire and toss with the prawns. Spoon into lettuce cups."
+    },
+    {
+      "id": "chicken_veg_broth",
+      "name": "Chicken and vegetable broth",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "freezer-friendly"
+      ],
+      "prep_min": 25,
+      "items": [
+        [
+          "chicken_breast",
+          110
+        ],
+        [
+          "carrot",
+          50
+        ],
+        [
+          "onion",
+          30
+        ],
+        [
+          "spinach",
+          30
+        ]
+      ],
+      "method": "Simmer the chicken, carrot, onion, garlic and a stock cube in 400 ml water for 20 minutes. Shred the chicken, stir in the spinach and season with pepper."
+    },
+    {
+      "id": "pb_protein_yoghurt",
+      "name": "Peanut butter protein yoghurt",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "no-cook",
+        "under-15-min"
+      ],
+      "prep_min": 3,
+      "items": [
+        [
+          "greek_yog",
+          240
+        ],
+        [
+          "peanut_butter",
+          10
+        ]
+      ],
+      "method": "Swirl the peanut butter through the yoghurt. Add cinnamon if you like."
+    },
+    {
+      "id": "tuna_stuffed_capsicum",
+      "name": "Tuna-stuffed capsicum",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 15,
+      "items": [
+        [
+          "tuna_can",
+          100
+        ],
+        [
+          "capsicum",
+          120
+        ],
+        [
+          "tomato_tin",
+          50
+        ],
+        [
+          "mozzarella_light",
+          15
+        ]
+      ],
+      "method": "Halve and deseed the capsicum. Mix the tuna with the tomato and oregano, pile into the halves, top with cheese and air-fry at 180°C for 10 minutes."
+    },
+    {
+      "id": "egg_cheese_muffin",
+      "name": "Egg and cheese English muffin",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "under-15-min"
+      ],
+      "prep_min": 8,
+      "items": [
+        [
+          "egg_white",
+          100
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "english_muffin",
+          67
+        ],
+        [
+          "mozzarella_light",
+          15
+        ]
+      ],
+      "method": "Toast the muffin. Microwave the egg and egg whites in a small bowl lined with baking paper for 60–90 seconds until set, then stack in the muffin with the cheese."
+    },
+    {
+      "id": "pb_protein_shake",
+      "name": "Peanut butter protein shake",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "no-cook",
+        "under-15-min"
+      ],
+      "prep_min": 3,
+      "items": [
+        [
+          "whey",
+          36
+        ],
+        [
+          "almond_milk",
+          250
+        ],
+        [
+          "peanut_butter",
+          10
+        ]
+      ],
+      "method": "Blend the whey, almond milk and peanut butter with ice until smooth."
+    },
+    {
+      "id": "choc_banana_nice_cream",
+      "name": "Chocolate banana protein nice cream",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "no-cook",
+        "under-15-min"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "banana",
+          80
+        ],
+        [
+          "whey",
+          36
+        ],
+        [
+          "cocoa",
+          5
+        ],
+        [
+          "almond_milk",
+          50
+        ]
+      ],
+      "method": "Blend frozen banana chunks with the whey, cocoa and almond milk until thick and creamy. Eat straight away or freeze for 20 minutes."
+    },
+    {
+      "id": "mini_beef_meatballs",
+      "name": "Mini beef meatballs",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "batch",
+        "freezer-friendly",
+        "air-fryer"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "beef_mince_lean",
+          120
+        ],
+        [
+          "breadcrumbs",
+          10
+        ],
+        [
+          "onion",
+          20
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Mix the mince with breadcrumbs, grated onion, garlic, oregano and salt and roll into small balls. Toss with the oil and air-fry at 200°C for 9 minutes."
+    },
+    {
+      "id": "popcorn_chicken",
+      "name": "Air-fryer popcorn chicken",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "air-fryer",
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_breast",
+          120
+        ],
+        [
+          "breadcrumbs",
+          15
+        ],
+        [
+          "egg_white",
+          20
+        ],
+        [
+          "canola_oil",
+          5
+        ]
+      ],
+      "method": "Cut the chicken into bite-sized pieces, dip in seasoned egg white then breadcrumbs mixed with paprika and garlic powder. Spray with the oil and air-fry at 200°C for 10 minutes."
+    },
+    {
+      "id": "cottage_cheese_pancakes",
+      "name": "Cottage cheese protein pancakes",
+      "slot": "snack",
+      "cuisine": "Australian & Western",
+      "tags": [
+        "vegetarian",
+        "under-15-min"
+      ],
+      "prep_min": 15,
+      "items": [
+        [
+          "cottage_cheese",
+          100
+        ],
+        [
+          "egg",
+          52
+        ],
+        [
+          "egg_white",
+          60
+        ],
+        [
+          "oats",
+          20
+        ],
+        [
+          "canola_oil",
+          5
+        ],
+        [
+          "berries_frozen",
+          40
+        ]
+      ],
+      "method": "Blend the cottage cheese, egg, egg white and oats into a batter. Cook small pancakes in the oil over medium heat and top with warmed berries."
+    },
+    {
+      "id": "sl_fish_cutlets",
+      "name": "Sri Lankan tuna fish cutlets",
+      "slot": "snack",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "batch",
+        "freezer-friendly",
+        "air-fryer"
+      ],
+      "prep_min": 30,
+      "items": [
+        [
+          "tuna_can",
+          100
+        ],
+        [
+          "potato",
+          70
+        ],
+        [
+          "egg_white",
+          30
+        ],
+        [
+          "breadcrumbs",
+          15
+        ],
+        [
+          "onion",
+          20
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Mash the boiled potato with the tuna, fried onion, green chilli, curry leaves, pepper and lime. Roll into balls, dip in egg white and breadcrumbs, brush with the oil and air-fry at 200°C for 10 minutes."
+    },
+    {
+      "id": "sl_pepper_chicken_bites",
+      "name": "Sri Lankan pepper chicken bites",
+      "slot": "snack",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 15,
+      "items": [
+        [
+          "chicken_breast",
+          130
+        ],
+        [
+          "onion",
+          30
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Toss bite-sized chicken with crushed black pepper, turmeric and salt. Fry in the oil with onion, curry leaves and garlic until cooked and peppery."
+    },
+    {
+      "id": "sl_isso_thel_dala",
+      "name": "Isso thel dala (tempered prawns)",
+      "slot": "snack",
+      "cuisine": "Sri Lankan",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 12,
+      "items": [
+        [
+          "prawns",
+          150
+        ],
+        [
+          "onion",
+          30
+        ],
+        [
+          "coconut_oil",
+          5
+        ]
+      ],
+      "method": "Toss the prawns with chilli powder and turmeric. Fry onion, curry leaves, chilli flakes and garlic in the oil, add the prawns and cook 3 minutes, finishing with lime."
+    },
+    {
+      "id": "tandoori_chicken_skewers",
+      "name": "Tandoori chicken skewers with cucumber",
+      "slot": "snack",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "air-fryer",
+        "batch"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_breast",
+          120
+        ],
+        [
+          "greek_yog",
+          30
+        ],
+        [
+          "cucumber",
+          60
+        ]
+      ],
+      "method": "Marinate the chicken in yoghurt, tandoori spices, garlic, ginger and lemon. Thread onto skewers and air-fry at 200°C for 12 minutes; serve with cucumber sticks."
+    },
+    {
+      "id": "tofu_tikka_bites",
+      "name": "Air-fryer tofu tikka bites",
+      "slot": "snack",
+      "cuisine": "Other South Asian",
+      "tags": [
+        "vegetarian",
+        "air-fryer",
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "tofu_firm",
+          160
+        ],
+        [
+          "greek_yog",
+          20
+        ],
+        [
+          "capsicum",
+          40
+        ]
+      ],
+      "method": "Press and cube the tofu and toss with the yoghurt, tikka spices, garlic and lemon. Air-fry with capsicum pieces at 200°C for 14 minutes."
+    },
+    {
+      "id": "korean_mayak_eggs_edamame",
+      "name": "Korean soy-marinated eggs with edamame",
+      "slot": "snack",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "vegetarian",
+        "batch"
+      ],
+      "prep_min": 15,
+      "items": [
+        [
+          "egg",
+          104
+        ],
+        [
+          "edamame",
+          100
+        ],
+        [
+          "soy_sauce",
+          10
+        ]
+      ],
+      "method": "Soft-boil the eggs for 7 minutes, peel and marinate overnight in the soy with water, garlic, chilli and spring onion. Serve with steamed edamame and a pinch of salt."
+    },
+    {
+      "id": "thai_prawn_cucumber_salad",
+      "name": "Thai prawn and cucumber salad",
+      "slot": "snack",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 10,
+      "items": [
+        [
+          "prawns",
+          150
+        ],
+        [
+          "cucumber",
+          100
+        ],
+        [
+          "peanuts",
+          5
+        ]
+      ],
+      "method": "Poach the prawns 2–3 minutes and cool. Toss with sliced cucumber, mint, chilli and a dressing of lime and fish sauce, and top with crushed peanuts."
+    },
+    {
+      "id": "spicy_tuna_rice_cakes",
+      "name": "Spicy tuna rice cakes",
+      "slot": "snack",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "no-cook",
+        "under-15-min"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "tuna_can",
+          95
+        ],
+        [
+          "greek_yog",
+          20
+        ],
+        [
+          "rice_cakes",
+          18
+        ],
+        [
+          "soy_sauce",
+          5
+        ]
+      ],
+      "method": "Mix the tuna with yoghurt, sriracha or chilli, and the soy. Pile onto the rice cakes and top with sesame seeds or spring onion if you have them."
+    },
+    {
+      "id": "chicken_yakitori",
+      "name": "Chicken yakitori skewers",
+      "slot": "snack",
+      "cuisine": "East & Southeast Asian",
+      "tags": [
+        "air-fryer",
+        "under-30-min"
+      ],
+      "prep_min": 20,
+      "items": [
+        [
+          "chicken_thigh",
+          140
+        ],
+        [
+          "soy_sauce",
+          10
+        ],
+        [
+          "honey",
+          5
+        ]
+      ],
+      "method": "Thread thigh pieces onto skewers. Air-fry at 200°C for 10 minutes, then brush with the soy, honey and ginger glaze and cook 3 minutes more."
+    },
+    {
+      "id": "chicken_hummus_pita",
+      "name": "Chicken and hummus half-pita",
+      "slot": "snack",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "under-15-min",
+        "batch"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "chicken_breast",
+          90
+        ],
+        [
+          "hummus",
+          30
+        ],
+        [
+          "pita_wholemeal",
+          32
+        ],
+        [
+          "cucumber",
+          40
+        ]
+      ],
+      "method": "Use poached or grilled chicken from your batch cook (weight is raw). Spread hummus inside half a pita and fill with the sliced chicken, cucumber and a pinch of sumac."
+    },
+    {
+      "id": "tzatziki_veg_egg",
+      "name": "Tzatziki with veg sticks and boiled egg",
+      "slot": "snack",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "vegetarian",
+        "under-15-min"
+      ],
+      "prep_min": 10,
+      "items": [
+        [
+          "greek_yog",
+          180
+        ],
+        [
+          "cucumber",
+          80
+        ],
+        [
+          "carrot",
+          80
+        ],
+        [
+          "egg",
+          52
+        ]
+      ],
+      "method": "Grate a little of the cucumber into the yoghurt with garlic, dill and lemon. Serve with the remaining cucumber and carrot sticks and a halved boiled egg."
+    },
+    {
+      "id": "honey_almond_yoghurt",
+      "name": "Honey almond yoghurt bowl",
+      "slot": "snack",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "vegetarian",
+        "no-cook",
+        "under-15-min"
+      ],
+      "prep_min": 3,
+      "items": [
+        [
+          "greek_yog",
+          240
+        ],
+        [
+          "honey",
+          8
+        ],
+        [
+          "almonds",
+          8
+        ]
+      ],
+      "method": "Top the yoghurt with chopped almonds and drizzle with the honey."
+    },
+    {
+      "id": "tuna_chickpea_salad",
+      "name": "Tuna and chickpea salad",
+      "slot": "snack",
+      "cuisine": "Mediterranean & Middle Eastern",
+      "tags": [
+        "no-cook",
+        "under-15-min"
+      ],
+      "prep_min": 8,
+      "items": [
+        [
+          "tuna_can",
+          95
+        ],
+        [
+          "chickpeas_can",
+          60
+        ],
+        [
+          "tomato",
+          50
+        ],
+        [
+          "olive_oil",
+          5
+        ]
+      ],
+      "method": "Toss the tuna, chickpeas and tomato with parsley, red onion, lemon juice and the oil. Season with salt and pepper."
+    },
+    {
+      "id": "tuna_black_bean_cup",
+      "name": "Tuna, black bean and salsa cup",
+      "slot": "snack",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "no-cook",
+        "under-15-min"
+      ],
+      "prep_min": 5,
+      "items": [
+        [
+          "tuna_can",
+          95
+        ],
+        [
+          "black_beans_can",
+          50
+        ],
+        [
+          "salsa",
+          40
+        ]
+      ],
+      "method": "Mix the tuna, black beans and salsa with lime juice, coriander and a pinch of cumin."
+    },
+    {
+      "id": "mexican_chicken_lettuce_cups",
+      "name": "Mexican chicken lettuce cups",
+      "slot": "snack",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "under-15-min",
+        "batch"
+      ],
+      "prep_min": 8,
+      "items": [
+        [
+          "chicken_breast",
+          110
+        ],
+        [
+          "salsa",
+          40
+        ],
+        [
+          "lettuce",
+          50
+        ],
+        [
+          "avocado",
+          20
+        ]
+      ],
+      "method": "Use chicken from your batch cook (weight is raw) seasoned with cumin and lime, and shred it. Spoon into lettuce cups with salsa and diced avocado."
+    },
+    {
+      "id": "prawn_ceviche",
+      "name": "Cooked prawn ceviche",
+      "slot": "snack",
+      "cuisine": "Mexican & Latin",
+      "tags": [
+        "under-15-min"
+      ],
+      "prep_min": 15,
+      "items": [
+        [
+          "prawns",
+          150
+        ],
+        [
+          "tomato",
+          60
+        ],
+        [
+          "cucumber",
+          60
+        ],
+        [
+          "onion",
+          20
+        ],
+        [
+          "avocado",
+          20
+        ]
+      ],
+      "method": "Poach the prawns 2–3 minutes and cool, then chop. Toss with diced tomato, cucumber, red onion, chilli, coriander and plenty of lime juice, and top with avocado."
     }
   ]
 }
