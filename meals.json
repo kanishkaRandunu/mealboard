@@ -176,16 +176,16 @@
       "unit": "ml"
     },
     "whey": {
-      "name": "Whey protein",
+      "name": "INC 100% Dynamic Whey, chocolate",
       "section": "Pantry",
       "per100": {
-        "kcal": 390,
-        "p": 75,
-        "c": 8,
-        "f": 6
+        "kcal": 405.6,
+        "p": 69.4,
+        "c": 8.3,
+        "f": 8.3
       },
       "each": {
-        "g": 30,
+        "g": 36,
         "label": "scoop",
         "plural": "scoops"
       }
@@ -445,6 +445,39 @@
         "c": 58,
         "f": 14
       }
+    },
+    "creatine": {
+      "name": "Creatine monohydrate",
+      "section": "Pantry",
+      "pantry": true,
+      "per100": {
+        "kcal": 0,
+        "p": 0,
+        "c": 0,
+        "f": 0
+      }
+    },
+    "peanut_butter": {
+      "name": "Peanut butter",
+      "section": "Pantry",
+      "pantry": true,
+      "per100": {
+        "kcal": 600,
+        "p": 25,
+        "c": 13,
+        "f": 50
+      }
+    },
+    "instant_coffee": {
+      "name": "Instant coffee",
+      "section": "Pantry",
+      "pantry": true,
+      "per100": {
+        "kcal": 353,
+        "p": 12,
+        "c": 75,
+        "f": 0.5
+      }
     }
   },
   "meals": [
@@ -478,7 +511,8 @@
           80
         ]
       ],
-      "method": "Whisk eggs and whites. Wilt spinach and tomato in a non-stick pan (no oil), add eggs, stir gently. Crumble feta on top. Serve with toast."
+      "method": "Whisk eggs and whites. Wilt spinach and tomato in a non-stick pan (no oil), add eggs, stir gently. Crumble feta on top. Serve with toast.",
+      "cuisine": "Western"
     },
     {
       "id": "yoghurt_bowl",
@@ -491,7 +525,7 @@
         ],
         [
           "whey",
-          30
+          36
         ],
         [
           "berries_frozen",
@@ -502,7 +536,8 @@
           30
         ]
       ],
-      "method": "Stir whey into the yoghurt until smooth. Top with thawed berries and oats."
+      "method": "Stir whey into the yoghurt until smooth. Top with thawed berries and oats.",
+      "cuisine": "Western"
     },
     {
       "id": "protein_oats",
@@ -511,7 +546,7 @@
       "items": [
         [
           "oats",
-          60
+          50
         ],
         [
           "skim_milk",
@@ -519,7 +554,7 @@
         ],
         [
           "whey",
-          30
+          36
         ],
         [
           "banana",
@@ -530,7 +565,8 @@
           100
         ]
       ],
-      "method": "Microwave oats in milk for 2 minutes. Let cool for a minute, then stir in whey. Top with banana and berries."
+      "method": "Microwave oats in milk for 2 minutes. Let cool for a minute, then stir in whey. Top with banana and berries.",
+      "cuisine": "Western"
     },
     {
       "id": "tuna_wrap",
@@ -566,7 +602,8 @@
           30
         ]
       ],
-      "method": "Mix drained tuna with yoghurt, lemon, salt and pepper. Fill two wraps with spinach, cucumber, tomato, avocado and the tuna."
+      "method": "Mix drained tuna with yoghurt, lemon, salt and pepper. Fill two wraps with spinach, cucumber, tomato, avocado and the tuna.",
+      "cuisine": "Western"
     },
     {
       "id": "chicken_rice_bowl",
@@ -598,7 +635,8 @@
           5
         ]
       ],
-      "method": "Cook rice. Slice chicken and cook in the oil until done. Add broccoli and capsicum for 3 minutes, then soy sauce. Serve over rice."
+      "method": "Cook rice. Slice chicken and cook in the oil until done. Add broccoli and capsicum for 3 minutes, then soy sauce. Serve over rice.",
+      "cuisine": "East Asian"
     },
     {
       "id": "chicken_curry",
@@ -638,7 +676,8 @@
           100
         ]
       ],
-      "method": "Fry onion in coconut oil, add curry powder, garlic, ginger and curry leaves. Add diced chicken and tomato, then coconut milk with a splash of water. Simmer 15 minutes. Serve with rice and vegetables. Batch cooks well."
+      "method": "Fry onion in coconut oil, add curry powder, garlic, ginger and curry leaves. Add diced chicken and tomato, then coconut milk with a splash of water. Simmer 15 minutes. Serve with rice and vegetables. Batch cooks well.",
+      "cuisine": "Sri Lankan"
     },
     {
       "id": "fish_curry_dhal",
@@ -678,7 +717,8 @@
           50
         ]
       ],
-      "method": "Dhal: simmer lentils with turmeric and water for 15 minutes. Curry: fry onion in coconut oil with curry powder, add tomato and coconut milk, then the fish for 6 to 8 minutes. Serve with rice."
+      "method": "Dhal: simmer lentils with turmeric and water for 15 minutes. Curry: fry onion in coconut oil with curry powder, add tomato and coconut milk, then the fish for 6 to 8 minutes. Serve with rice.",
+      "cuisine": "Sri Lankan"
     },
     {
       "id": "beef_rice_bowl",
@@ -706,7 +746,8 @@
           15
         ]
       ],
-      "method": "Brown mince in a dry pan with garlic and chilli, add soy sauce. Serve over rice with grated carrot and cucumber."
+      "method": "Brown mince in a dry pan with garlic and chilli, add soy sauce. Serve over rice with grated carrot and cucumber.",
+      "cuisine": "East Asian"
     },
     {
       "id": "beef_stirfry",
@@ -738,7 +779,8 @@
           5
         ]
       ],
-      "method": "Slice beef thinly and sear in the oil on high heat. Remove, stir-fry vegetables, return beef with soy and oyster sauce. Serve over rice."
+      "method": "Slice beef thinly and sear in the oil on high heat. Remove, stir-fry vegetables, return beef with soy and oyster sauce. Serve over rice.",
+      "cuisine": "East Asian"
     },
     {
       "id": "salmon_traybake",
@@ -766,7 +808,8 @@
           30
         ]
       ],
-      "method": "Roast cubed sweet potato at 200°C for 20 minutes. Add salmon and broccoli, roast 12 more minutes. Serve with yoghurt mixed with lemon juice and garlic."
+      "method": "Roast cubed sweet potato at 200°C for 20 minutes. Add salmon and broccoli, roast 12 more minutes. Serve with yoghurt mixed with lemon juice and garlic.",
+      "cuisine": "Western"
     },
     {
       "id": "protein_pudding",
@@ -775,7 +818,7 @@
       "items": [
         [
           "whey",
-          30
+          36
         ],
         [
           "chia",
@@ -794,7 +837,8 @@
           60
         ]
       ],
-      "method": "Shake whey, chia, cocoa and almond milk in a jar. Rest 10 minutes or overnight. Top with sliced banana."
+      "method": "Shake whey, chia, cocoa and almond milk in a jar. Rest 10 minutes or overnight. Top with sliced banana.",
+      "cuisine": "Western"
     },
     {
       "id": "yoghurt_cup",
@@ -807,23 +851,63 @@
         ],
         [
           "whey",
-          15
+          18
         ],
         [
           "berries_frozen",
           80
         ]
       ],
-      "method": "Stir half a scoop of whey into the yoghurt, top with berries."
+      "method": "Stir half a scoop of whey into the yoghurt, top with berries.",
+      "cuisine": "Western"
     },
     {
-      "id": "shake_banana",
-      "name": "Protein shake and banana",
+      "id": "shake_water",
+      "name": "Chocolate whey with water",
       "slot": "snack",
+      "cuisine": "Shakes",
       "items": [
         [
           "whey",
-          30
+          36
+        ],
+        [
+          "creatine",
+          5
+        ]
+      ],
+      "method": "Shake one scoop with 250 ml cold water and the creatine. The lowest-calorie option."
+    },
+    {
+      "id": "shake_milk",
+      "name": "Chocolate milk shake",
+      "slot": "snack",
+      "cuisine": "Shakes",
+      "items": [
+        [
+          "whey",
+          36
+        ],
+        [
+          "skim_milk",
+          300
+        ],
+        [
+          "creatine",
+          5
+        ]
+      ],
+      "method": "Shake or blend whey and creatine with cold skim milk."
+    },
+    {
+      "id": "shake_banana",
+      "name": "Chocolate banana shake",
+      "slot": "snack",
+      "cuisine": "Shakes",
+      "items": [
+        [
+          "whey",
+          36
         ],
         [
           "skim_milk",
@@ -832,9 +916,138 @@
         [
           "banana",
           120
+        ],
+        [
+          "creatine",
+          5
         ]
       ],
-      "method": "Shake whey with milk. Eat the banana alongside or blend everything."
+      "method": "Blend everything with a few ice cubes. Good after training. Add 5 g creatine (one level teaspoon) to any shake; it has no calories."
+    },
+    {
+      "id": "shake_mocha",
+      "name": "Iced mocha shake",
+      "slot": "snack",
+      "cuisine": "Shakes",
+      "items": [
+        [
+          "whey",
+          36
+        ],
+        [
+          "skim_milk",
+          250
+        ],
+        [
+          "instant_coffee",
+          2
+        ],
+        [
+          "creatine",
+          5
+        ]
+      ],
+      "method": "Dissolve coffee in a splash of hot water, then blend with whey, milk, creatine and ice."
+    },
+    {
+      "id": "shake_pb",
+      "name": "Chocolate peanut butter shake",
+      "slot": "snack",
+      "cuisine": "Shakes",
+      "items": [
+        [
+          "whey",
+          36
+        ],
+        [
+          "skim_milk",
+          250
+        ],
+        [
+          "peanut_butter",
+          10
+        ],
+        [
+          "creatine",
+          5
+        ]
+      ],
+      "method": "Blend with ice. Weigh the peanut butter: 10 g is two level teaspoons. Add 5 g creatine (one level teaspoon) to any shake; it has no calories."
+    },
+    {
+      "id": "shake_berry",
+      "name": "Chocolate berry shake",
+      "slot": "snack",
+      "cuisine": "Shakes",
+      "items": [
+        [
+          "whey",
+          36
+        ],
+        [
+          "almond_milk",
+          300
+        ],
+        [
+          "berries_frozen",
+          100
+        ],
+        [
+          "creatine",
+          5
+        ]
+      ],
+      "method": "Blend frozen berries with almond milk, whey and creatine. Thick, like a smoothie."
+    },
+    {
+      "id": "shake_oat",
+      "name": "Chocolate oat shake",
+      "slot": "snack",
+      "cuisine": "Shakes",
+      "items": [
+        [
+          "whey",
+          36
+        ],
+        [
+          "skim_milk",
+          250
+        ],
+        [
+          "oats",
+          30
+        ],
+        [
+          "creatine",
+          5
+        ]
+      ],
+      "method": "Blend oats first until fine, then add whey, milk and creatine. The most filling shake."
+    },
+    {
+      "id": "shake_thick",
+      "name": "Thick chocolate yoghurt shake",
+      "slot": "snack",
+      "cuisine": "Shakes",
+      "items": [
+        [
+          "whey",
+          36
+        ],
+        [
+          "greek_yog",
+          150
+        ],
+        [
+          "skim_milk",
+          150
+        ],
+        [
+          "creatine",
+          5
+        ]
+      ],
+      "method": "Blend with ice until thick. Highest protein of the shakes. Add 5 g creatine (one level teaspoon) to any shake; it has no calories."
     }
   ]
 }

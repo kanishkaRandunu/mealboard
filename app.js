@@ -21,7 +21,7 @@
   let state = load();
   let data = null; // meals.json
   let mealMacros = {};
-  let ui = { tab: 'plan', weekStart: mondayOf(new Date()), day: dayIndex(new Date()), filter: 'all' };
+  let ui = { tab: 'plan', weekStart: mondayOf(new Date()), day: dayIndex(new Date()), filter: 'all', cuisine: 'all' };
 
   function load() {
     try {
@@ -218,7 +218,12 @@
     const f = ui.filter;
     const chips = [['all', 'All'], ['first', 'First meals'], ['main', 'Mains'], ['snack', 'Snacks']]
       .map(([k, l]) => `<button class="chip-btn" data-action="filter" data-filter="${k}" aria-pressed="${f === k}">${l}</button>`).join('');
-    const list = data.meals.filter((m) => f === 'all' || m.slot === f).map((m) => {
+    const cuisines = [...new Set(data.meals.map((m) => m.cuisine).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+    const cz = ui.cuisine;
+    const cchips = [['all', 'All cuisines'], ...cuisines.map((c) => [c, c])]
+      .map(([k, l]) => `<button class="chip-btn" data-action="cuisine" data-cuisine="${esc(k)}" aria-pressed="${cz === k}">${esc(l)}</button>`).join('');
+    const shown = data.meals.filter((m) => (f === 'all' || m.slot === f) && (cz === 'all' || m.cuisine === cz));
+    const list = shown.map((m) => {
       const mm = mealMacros[m.id];
       const ings = m.items.map(([id, g]) => {
         const ing = data.ingredients[id];
@@ -227,14 +232,16 @@
         return `<tr><td>${esc(ing.name)}</td><td class="num">${amount}</td></tr>`;
       }).join('');
       return `<li class="meal-item"><details><summary>
-          <span><span class="mname">${esc(m.name)}</span><br><span class="mslot">${SLOT_NAMES[m.slot]}</span></span>
+          <span><span class="mname">${esc(m.name)}</span><br><span class="mslot">${SLOT_NAMES[m.slot]}${m.cuisine ? `, ${esc(m.cuisine)}` : ''}</span></span>
           <span class="macro num"><b>${fmt(mm.kcal)}</b> kcal<br>${fmt(mm.p)} g protein</span></summary>
         <div class="cfb num">Carbs ${fmt(mm.c)} g, fat ${fmt(mm.f)} g. Weights are raw or dry.</div>
         <table class="ing">${ings}</table>
         <p class="method">${esc(m.method)}</p></details></li>`;
     }).join('');
-    $view.innerHTML = `<div class="filters" role="group" aria-label="Filter meals">${chips}</div>
-      <ul class="meal-list">${list}</ul>
+    $view.innerHTML = `<div class="filters" role="group" aria-label="Filter by meal type">${chips}</div>
+      <div class="filters" role="group" aria-label="Filter by cuisine">${cchips}</div>
+      <p class="g-sub">${shown.length} of ${data.meals.length} meals</p>
+      <ul class="meal-list">${list || '<li class="empty-state">No meals match both filters. Pick a different type or cuisine.</li>'}</ul>
       <p class="fine">Nutrition is calculated from typical values per 100 g. Check labels in Cronometer when you save these as recipes.</p>`;
   }
 
@@ -251,7 +258,7 @@
       const after = base.kcal + mm.kcal;
       return `<li><button data-action="choose" data-slot="${slotKey}" data-meal="${m.id}" aria-current="${m.id === current}">
         <span><span class="mname">${esc(m.name)}</span><br>
-        <span class="fit ${after > T.kcal ? 'bad' : ''}">Day would be ${fmt(after)} kcal</span></span>
+        <span class="fit ${after > T.kcal ? 'bad' : ''}">${m.cuisine ? `${esc(m.cuisine)}. ` : ''}Day would be ${fmt(after)} kcal</span></span>
         <span class="macro num"><b>${fmt(mm.kcal)}</b> kcal<br>${fmt(mm.p)} g protein</span></button></li>`;
     };
     const match = data.meals.filter((m) => m.slot === slot.type);
@@ -315,6 +322,7 @@
       }
       case 'clear-day': w.days[ui.day] = {}; save(); render(); break;
       case 'filter': ui.filter = el.dataset.filter; render(); break;
+      case 'cuisine': ui.cuisine = el.dataset.cuisine; render(); break;
       case 'share-list': shareList(); break;
       case 'reset-list': delete state.checked[weekKey()]; delete state.extras[weekKey()]; save(); render(); break;
       case 'open-settings': openSettings(); break;

@@ -29,6 +29,7 @@ Static files only: `index.html`, `styles.css`, `app.js`, `meals.json`, `sw.js`, 
       "id": "unique_id",
       "name": "Shown name",
       "slot": "first | main | snack",                      // which slot it is suggested for
+      "cuisine": "Sri Lankan | East Asian | Western | Shakes | ...", // drives the cuisine filter; free text
       "items": [["<ingredient id>", grams], ...],          // raw / dry weights for ONE serving
       "method": "Short cooking note"
     }
@@ -54,9 +55,15 @@ Rules:
 
 Week keys are the Monday's date. Slots: `s0` 12:00 first meal, `s1` 16:00, `s2` 19:30, `s3` snack. Export/import in Settings writes and reads this object as JSON.
 
+## Notes on specific ingredients
+
+- `whey` is INC 100% Dynamic Whey, chocolate: label serve 36 g = 146 kcal, 25 g protein, 3 g carbs, 3 g fat.
+- `creatine` has zero macros and is listed in shakes as a 5 g daily reminder.
+
 ## Behaviour
 
 - Day strip shows each day's calories as a filled jar (red when over target) and a dot that fills when protein is met.
+- Meals tab filters by type and by cuisine (cuisine chips are built from whatever values exist).
 - Meal picker shows what the day total would become with each meal.
 - Grocery quantities: grams rounded up to 10 g, kg above 1,000 g; `each` items rounded up to whole units.
 - Share uses the Web Share API, falling back to clipboard. Ticked items are left out.
